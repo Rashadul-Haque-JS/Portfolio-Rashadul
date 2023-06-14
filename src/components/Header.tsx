@@ -19,10 +19,10 @@ const Header = () => {
         </p>
       </div>
       <div className="flex justify-center items-center gap-6 absolute top-4 right-48 md:right-40 sm:static">
-        <a href="https://github.com/your-github-url">
+        <a href="https://github.com/Rashadul-Haque-JS">
           <FaGithub size={24} />
         </a>
-        <a href="https://linkedin.com/your-linkedin-url">
+        <a href="https://www.linkedin.com/in/rashadul-haque-905642137/">
           <FaLinkedin size={24} className="rounded-full" />
         </a>
       </div>

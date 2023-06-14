@@ -1,23 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import Skills from "./Skills";
+import About from "./About";
+import Button from "./NavButton";
+import TechKnowledges from "./TechStack";
+
 const Main = () => {
+  const [activeComponent, setActiveComponent] = useState("About");
+
+  const handleComponentChange = (component: string) => {
+    setActiveComponent(component);
+  };
+
   return (
-    <>
-    <div className="mt-16">
-     <p className="text-justify text-xl sm:px-8 px-[15%] py-0 font-thin leading-normal">
-        I'm Rashadul Haque, a passionate developer from Sweden. With a focus on
-        learning and continuous improvement, I have experience in both frontend
-        and backend development. I enjoy working with technologies like React,
-        TypeScript, and Next.js to create dynamic and interactive user
-        interfaces. On the backend, I explore Node.js and PHP, leveraging
-        frameworks such as Express.js and Laravel. By combining these skills, I
-        strive to build efficient and reliable web applications. Let's
-        collaborate and bring your ideas to reality with modern and innovative
-        solutions.
-      </p>
+    <div className="mt-20 min-h-[500px]">
+      <div className="flex justify-center gap-8 mb-8">
+        <Button
+          active={activeComponent === "About"}
+          onClick={() => handleComponentChange("About")}
+        >
+          About
+        </Button>
+        <Button
+          active={activeComponent === "Tech"}
+          onClick={() => handleComponentChange("Tech")}
+        >
+          Skills
+        </Button>
+        {/* Add more buttons for other components */}
+      </div>
+      <div
+        className="py-8 md:py-16 lg:py-20 mx-1 rounded-md"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(174,245,56,1) 38%, rgba(17,176,33,0.9304315476190477) 98%)",
+        }}
+      >
+        {activeComponent === "About" && <About />}
+        {activeComponent === "Tech" && <TechKnowledges />}
+        {/* Add conditional rendering for other components */}
+      </div>
     </div>
-    <Skills />
-    </>
   );
 };
+
 export default Main;
