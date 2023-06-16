@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import Skills from "./Skills";
 import About from "./About";
 import Button from "./NavButton";
 import TechKnowledges from "./TechStack";
+import Projects from "./Projects";
+import Experience from "./Experience";
+import Education from "./Education";
 
 const Main = () => {
   const [activeComponent, setActiveComponent] = useState("About");
@@ -12,8 +14,8 @@ const Main = () => {
   };
 
   return (
-    <div className="mt-20 min-h-[500px]">
-      <div className="flex justify-center gap-8 mb-8">
+    <div className="sm:mt-20 mt-28 min-h-[500px]">
+      <div className="flex justify-center gap-8 mb-8 sm:px-4 sm:gap-4 flex-wrap">
         <Button
           active={activeComponent === "About"}
           onClick={() => handleComponentChange("About")}
@@ -24,19 +26,46 @@ const Main = () => {
           active={activeComponent === "Tech"}
           onClick={() => handleComponentChange("Tech")}
         >
-          Skills
+          Tech-Steck
+        </Button>
+        <Button
+          active={activeComponent === "Projects"}
+          onClick={() => handleComponentChange("Projects")}
+        >
+          Projects
+        </Button>
+        <Button
+          active={activeComponent === "Experience"}
+          onClick={() => handleComponentChange("Experience")}
+        >
+        Experience
+        </Button>
+        <Button
+          active={activeComponent === "Education"}
+          onClick={() => handleComponentChange("Education")}
+        >
+          Education
+        </Button>
+        <Button
+          active={activeComponent === "Recommendations"}
+          onClick={() => handleComponentChange("Recommendations")}
+        >
+          Rec
         </Button>
         {/* Add more buttons for other components */}
       </div>
       <div
-        className="py-8 md:py-16 lg:py-20 mx-1 rounded-md"
+        className="py-10 sm:py-8 "
         style={{
           background:
-            "radial-gradient(circle, rgba(174,245,56,1) 38%, rgba(17,176,33,0.9304315476190477) 98%)",
+            "#034058",
         }}
       >
         {activeComponent === "About" && <About />}
         {activeComponent === "Tech" && <TechKnowledges />}
+        {activeComponent === "Projects" && <Projects />}
+        {activeComponent === "Experience" && <Experience/>}
+        {activeComponent === "Education" && <Education/>}
         {/* Add conditional rendering for other components */}
       </div>
     </div>

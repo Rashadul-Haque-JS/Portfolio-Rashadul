@@ -1,0 +1,32 @@
+[
+    {"id": 1,
+      "position": "Frontend Developer",
+      "company": "Polhem International AB",
+      "place": "Stockholm",
+      "date": "Jan 2023 - Apr 2023",
+      "contact":"Internship",
+      "locationType":"On-site",
+      "description": [
+        "Successfully updated parts of the CRM system using Typescript and React, enhancing its functionality and user experience.",
+        "Collaborated effectively with the team, demonstrating strong teamwork skills and contributing to the overall project success.",
+        "Implemented improvements to the backend using PHP, optimizing the system's performance and stability.",
+        "Showed competence and proficiency as a frontend developer, delivering high‐quality code and meeting project requirements."
+      ]
+    },
+    {
+        "id": 2,
+      "position": "Frontend Developer",
+      "company": "Devward AB",
+      "place": "Stockholm",
+      "date": "Aug 2022 - Oct 2022",
+      "contact":"Internship",
+      "locationType":"Hybrid",
+      "description": [
+        "Efficiently migrated the old IT dashboard to Vue.js and Node.js, improving its performance and enhancing the user interface.",
+        "Demonstrated self‐independence and proactiveness by taking the initiative to go above and beyond in resolving development issues and challenges.",
+        "Paid attention to detail, ensuring a high level of quality in the implementation and delivering a polished final product.",
+        "Aligned perfectly with the company's needs, showcasing strong adaptability and quickly integrating into the development team."
+      ]
+    }
+  ]
+  

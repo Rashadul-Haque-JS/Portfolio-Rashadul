@@ -1,0 +1,44 @@
+[
+	{
+	  "title": "XYZ",
+	  "overlay": "Marvelous",
+      "id": "1",
+      "image": "globe.png",
+      "url": "https://example.com",
+      "github_url": "https://github.com",
+      "description":"A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+      "tags": ["React", "Redux", "APIs", "JavaScript ES6", "Styled Components", "HTML", "Github"]
+	},
+	{
+	  "title": "XYZ",
+	  "overlay": "Love Books",
+	  "id": "2",
+	  "image": "globe.png",
+	  "url": "https://example.com",
+	  "github_url": "https://github.com",
+	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+	  "tags": ["JavaScript ES6", "CSS3", "HTML", "Pair Program", "Github"]
+	},
+	{
+	  "title": "XYZ",
+	  "overlay": "Wanderlust",
+	  "id": "3",
+	  "image": "globe.png",
+	  "url": "https://example.com",
+	  "github_url": "https://github.com",
+	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+	  "tags": ["React", "JavaScript ES6", "CSS3", "HTML", "Github"]
+	},
+	{
+	  "title": "XYZ",
+	  "overlay": "Harmony",
+	  "id": "4",
+	  "image": "globe.png",
+	  "url": "https://example.com",
+	  "github_url": "https://github.com",
+	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+	  "tags": ["React", "APIs", "JavaScript ES6", "CSS3", "HTML", "Github"]
+	}
+  ]
+
+ 

@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="sm:py-10 mt-28 mx-1 rounded-md">
       <Skills />
       <div
-        className="bg-black py-20 "
+        className="bg-[#001D2D] py-20 "
         style={{
           fontFamily: "Montserrat, sans-serif",
           maxWidth: "1024px",
