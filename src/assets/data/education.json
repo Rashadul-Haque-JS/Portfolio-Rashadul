@@ -1,0 +1,17 @@
+[
+    {"id": 1,
+      "position": "JavaScript Developer",
+      "company": "IT-Högskolan",
+      "place": "Stockholm",
+      "date": "Aug 2021 - May 2023",
+      "contact":"Higher Vocational Education",
+      "locationType":"24-weeks internship",
+      "description": [
+        "Proficient in HTML, CSS, and JavaScript for web development.",       
+        "Knowledgeable in UX/UI design and JavaScript frameworks.",        
+        "Experienced in Agile development and backend programming with databases.",       
+        "Skilled in cross-platform development, software life cycle management, and testing using Typescript."
+    ]
+    }
+  ]
+  

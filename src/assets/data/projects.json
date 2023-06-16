@@ -7,7 +7,7 @@
       "url": "https://example.com",
       "github_url": "https://github.com",
       "description":"A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-      "tags": ["React", "Redux", "APIs", "JavaScript ES6", "Styled Components", "HTML", "Github"]
+      "tags": ["React", "Redux", "APIs", "JavaScript", "ES6",  "HTML", "Github"]
 	},
 	{
 	  "title": "XYZ",
@@ -17,7 +17,7 @@
 	  "url": "https://example.com",
 	  "github_url": "https://github.com",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["JavaScript ES6", "CSS3", "HTML", "Pair Program", "Github"]
+	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Pair Program", "Github"]
 	},
 	{
 	  "title": "XYZ",
@@ -27,7 +27,7 @@
 	  "url": "https://example.com",
 	  "github_url": "https://github.com",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["React", "JavaScript ES6", "CSS3", "HTML", "Github"]
+	  "tags": ["React", "JavaScript", "ES6", "CSS3", "HTML", "Github"]
 	},
 	{
 	  "title": "XYZ",
@@ -37,7 +37,7 @@
 	  "url": "https://example.com",
 	  "github_url": "https://github.com",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["React", "APIs", "JavaScript ES6", "CSS3", "HTML", "Github"]
+	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
 	}
   ]
 

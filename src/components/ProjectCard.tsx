@@ -15,13 +15,13 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     transition: "transform 0.3s ease",
     transform: hover ? "scale(0.95)" : "scale(1)",
     cursor: "pointer",
-    height: "auto",
+    height: "620px",
     background: "#547D8E",
   };
 
   const overlayStyle: React.CSSProperties = {
     backgroundColor: hover ? "#003333" : "transparent",
-    color: hover ? "white" : "#FF9100",
+    color: hover ? "white" : "#FEF17F",
     padding: "0.5rem",
     borderRadius: "0.25rem",
     marginBottom: "1rem",
@@ -58,7 +58,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
           alt={item.overlay}
         />
         <h2 className="text-white">{item.title}</h2>
-        <p className="py-4 text-[#FF9100]">{item.description}</p>
+        <p className="py-4 text-[#FEF17F]">{item.description}</p>
         <div className="flex justify-start items-center flex-wrap w-full">
           {item.tags.map((tag: any) => (
             <span key={tag} style={tagStyle}>
