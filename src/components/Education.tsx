@@ -1,5 +1,5 @@
 import React from "react";
-import Education from "./GeneralCard";
+import Education from "./card/GeneralCard";
 import educationData from "../assets/data/education.json";
 
 const EducationList = () => {

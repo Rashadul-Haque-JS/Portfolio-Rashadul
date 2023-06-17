@@ -1,0 +1,14 @@
+[
+    {"id": 1,
+      "speech": "Rashadul interned at Polhem as a Front-End Developer as a part of his Education at IT-Högskolan. Rashadul worked well both independently and as a team player. Rashadul helped us update parts of our CRM system build with primarily Typescript, React as Frontend languages as well as PHP as the backend language. I would recommend Rashadul to employers wanting to extend their team with a competent frontend developer.",
+      "name": "Joel Backlund",
+      "position": "CDO /Chief Digital Officer",
+      "company": "Polhem International AB"
+    },
+    {"id": 2,
+      "speech": "Rashadul spent three months at Devward as part of his Javascript developer program at IT-Högskolan. Rashadul aligned perfectly with the company's needs of self-independence and proactiveness, taking always one step further when confronting issues during development tasks. Rashadul was very helpful in migrating our old IT dashboard to VUE.js and Node.js, and paying attention to details, which is something that we love at Devward. space Rashadul showed great potential when approaching new frameworks new to him, showing quick learning and adaptability. He didn't have any problems understanding our old backend in PHP and frontend in Laravel.",
+      "name": "Daniel Kjellström",
+      "position": "CEO & Co-Founder",
+      "company": "Devward AB"
+    }
+  ]

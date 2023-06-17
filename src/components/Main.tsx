@@ -5,6 +5,7 @@ import TechKnowledges from "./TechStack";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Education from "./Education";
+import Recommendation from "./Recommendation";
 
 const Main = () => {
   const [activeComponent, setActiveComponent] = useState("About");
@@ -47,8 +48,8 @@ const Main = () => {
           Education
         </Button>
         <Button
-          active={activeComponent === "Recommendations"}
-          onClick={() => handleComponentChange("Recommendations")}
+          active={activeComponent === "Recommendation"}
+          onClick={() => handleComponentChange("Recommendation")}
         >
           Rec
         </Button>
@@ -66,6 +67,7 @@ const Main = () => {
         {activeComponent === "Projects" && <Projects />}
         {activeComponent === "Experience" && <Experience/>}
         {activeComponent === "Education" && <Education/>}
+        {activeComponent === "Recommendation" && <Recommendation/>}
         {/* Add conditional rendering for other components */}
       </div>
     </div>

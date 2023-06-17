@@ -1,5 +1,5 @@
 import React from "react";
-import { ExperienceProps } from "../types";
+import { ExperienceProps } from "../../types";
 const Experience = ({ data }: ExperienceProps) => {
   return (
     <div className="experience bg-white rounded-lg  p-4 mb-4">
@@ -8,7 +8,7 @@ const Experience = ({ data }: ExperienceProps) => {
         {data.company} - {data.place}
       </h3>
       <h4 className="text-md font-medium text-gray-600">{data.date}</h4>
-      <div className="flex justify-start items-center gap-2 text-gray-400">
+      <div className="flex justify-start items-center gap-1 text-gray-400">
         <h5>{data.contact}</h5>
         &bull;
         <h5>{data.locationType}</h5>

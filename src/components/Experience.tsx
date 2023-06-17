@@ -1,5 +1,5 @@
 import React from "react";
-import Experience from "./GeneralCard";
+import Experience from "./card/GeneralCard";
 import experienceData from "../assets/data/experience.json";
 
 const ExperienceList = () => {

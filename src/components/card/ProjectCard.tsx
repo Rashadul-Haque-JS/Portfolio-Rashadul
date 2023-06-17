@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { ProjectCardProps } from "../types";
+import { ProjectCardProps } from "../../types";
 const ProjectCard = ({ item }: ProjectCardProps) => {
   const [hover, setHover] = useState(false);
-  const imagePath = require(`../assets/images/${item.image}`);
+  const imagePath = require(`../../assets/images/${item.image}`);
 
   const cardStyle: React.CSSProperties = {
     display: "flex",
@@ -53,7 +53,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
           {item.overlay}
         </div>
         <img
-          className="w-full h-auto mb-4"
+          className="w-3/4 h-auto mb-4"
           src={imagePath}
           alt={item.overlay}
         />

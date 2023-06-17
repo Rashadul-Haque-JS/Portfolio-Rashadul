@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="app-header border shadow-md text-white p-8 flex sm:justify-center items-center sm:items-start relative sm:h-[300px]">
       <img
-        className="profile-img w-[240px] h-[240px] sm:w-40 sm:h-40 md:w-64 md:h-64 p-0 rounded-tl-lg rounded-tr-lg z-30"
+        className="profile-img w-[240px] h-[240px] sm:w-40 sm:h-40 md:w-64 md:h-64 p-0  z-30"
         src={myImg}
         alt="Rashadul Haque"
       />

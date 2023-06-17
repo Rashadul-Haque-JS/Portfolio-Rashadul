@@ -1,19 +1,19 @@
 export const techData = [
     {
-      title: 'Programming-Language',
+      title: 'Languages',
       tech: ` JavaScript
   • PHP
   • TypeScript
   • Python (Hobby project only)`
     },
     {
-      title: 'Frontend-Framework',
+      title: 'Frontend-Frame',
       tech: ` React
   • Vue
   • Next.js`
     },
     {
-      title: 'Backend-Framework',
+      title: 'Backend-Frame',
       tech: ` Node.js
   • Express.js
   • Laravel`
@@ -27,7 +27,7 @@ export const techData = [
     },
     {
       title: 'Database',
-      tech: `• MongoDB
+      tech: `MongoDB
   • MySQL`
     },
     {

@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const Footer = () => {
   return (
-    <div className="sm:py-10 mt-28 mx-1 rounded-md">
+    <div className="sm:py-10 mt-28 ">
       <Skills />
       <div
         className="bg-[#001D2D] py-20 "
