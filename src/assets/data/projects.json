@@ -1,41 +1,61 @@
 [
 	{
-	  "title": "XYZ",
-	  "overlay": "Marvelous",
+	  "title": "SHOP SENSES",
+	  "overlay": "Economical",
       "id": "1",
-      "image": "globe.png",
-      "url": "https://example.com",
-      "github_url": "https://github.com",
+      "image": "shopsense.png",
+      "url": "https://shop-sense.vercel.app/",
+      "github_url": "https://github.com/Rashadul-Haque-JS/Shop-Sense",
       "description":"A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-      "tags": ["React", "Redux", "APIs", "JavaScript", "ES6",  "HTML", "Github"]
+      "tags": ["Next", "APIs", "JavaScript", "ES6", "Tailwind", "Github", "Vercel"]
 	},
 	{
-	  "title": "XYZ",
-	  "overlay": "Love Books",
+	  "title": "E-WALLET",
+	  "overlay": "DigiCash",
 	  "id": "2",
-	  "image": "globe.png",
-	  "url": "https://example.com",
-	  "github_url": "https://github.com",
+	  "image": "ewallet.png",
+	  "url": "https://e-wallet-rashadul.netlify.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/e-wallet-project",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
 	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Pair Program", "Github"]
 	},
 	{
-	  "title": "XYZ",
+	  "title": "DASHBOARD",
 	  "overlay": "Wanderlust",
 	  "id": "3",
-	  "image": "globe.png",
-	  "url": "https://example.com",
-	  "github_url": "https://github.com",
+	  "image": "dashboard.png",
+	  "url": "https://ithsdeshboardraom.netlify.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/Slutprojekt-crossplatform/tree/develop",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
 	  "tags": ["React", "JavaScript", "ES6", "CSS3", "HTML", "Github"]
 	},
 	{
-	  "title": "XYZ",
+	  "title": "WHERE IT'S AT",
 	  "overlay": "Harmony",
 	  "id": "4",
-	  "image": "globe.png",
-	  "url": "https://example.com",
-	  "github_url": "https://github.com",
+	  "image": "eticket.png",
+	  "url": "https://where-its-at.vercel.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/where-its-at",
+	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
+	},
+	{
+	  "title": "TEFLON",
+	  "overlay": "Smarties",
+	  "id": "4",
+	  "image": "teflon.png",
+	  "url": "https://teflon-samrties.netlify.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/teflon-todo-app-vue",
+	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
+	},
+	{
+	  "title": "STARS",
+	  "overlay": "Far-flung",
+	  "id": "4",
+	  "image": "stars.png",
+	  "url": "https://steller-conflict.netlify.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-react-typescript",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
 	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
 	}
