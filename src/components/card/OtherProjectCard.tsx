@@ -29,22 +29,22 @@ const OthersProjectCard = ({
       onMouseLeave={() => setHover(false)}
       onTouchStart={() => setHover(!hover)}
     >
-      <div className="h-40 sm:h-80 bg-gray-200 rounded-lg flex sm:flex-col justify-between items-center px-8 py-4 sm:px-4 sm:py-8 sm:text-center sm:gap-5">
+      <div className="h-40 sm:h-80 bg-gray-200 hover:bg-[#FEF17F] rounded-lg flex sm:flex-col justify-between items-center px-8 py-4 sm:px-4 sm:py-8 sm:text-center sm:gap-5">
         <div className="w-1/2 ">
         <img
           src={imagePath}
           alt="Card Image"
-          className="object-cover rounded-lg md:w-2/3 sm:w-full w-1/2"
+          className="object-cover rounded-lg sm:w-full w-[140px]"
         />
         </div>
-        <div>
+        <div className="text-start w-1/2 sm:w-full sm:text-center">
           <h3 className="text-lg font-bold">{title}</h3>
           <p className="mt-2 text-sm mr-8">{shortDesc}</p>
         </div>
       </div>
 
       {hover && (
-        <div className="absolute top-0 right-0 w-full h-full bg-gray-800 text-white bg-opacity-90 flex justify-center items-center rounded-lg">
+        <div className="absolute top-0 right-0 w-full h-full bg-gray-800 text-white bg-opacity-90 flex justify-center items-center rounded-lg" style={{border:'solid     8px #FEF17F'}}>
           <a
             href={url}
             className="px-8 py-2 rounded-lg bg-yellow-500 text-black font-bold"

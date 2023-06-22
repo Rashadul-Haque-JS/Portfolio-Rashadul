@@ -12,7 +12,7 @@
 	{
 	  "title": "SHOP SENSES",
 	  "overlay": "Economical",
-      "id": "1",
+      "id": "2",
       "image": "shopsense.png",
       "url": "https://shop-sense.vercel.app/",
       "github_url": "https://github.com/Rashadul-Haque-JS/Shop-Sense",
@@ -22,7 +22,7 @@
 	{
 	  "title": "E-WALLET",
 	  "overlay": "DigiCash",
-	  "id": "2",
+	  "id": "3",
 	  "image": "ewallet.png",
 	  "url": "https://e-wallet-rashadul.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/e-wallet-project",
@@ -30,19 +30,39 @@
 	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Vue", "Github"]
 	},
 	{
+	  "title": "SW-CATALOG",
+	  "overlay": "GalaxysEdge",
+	  "id": "4",
+	  "image": "sw-catalog.png",
+	  "url": "https://sw-vanilajs-project.netlify.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-school-project",
+	  "description": "Explore the Star Wars universe with ease. This project displays data from an external Star Wars API.",
+	  "tags": ["JavaScript", "API", "CSS3", "HTML", "Github"]
+	},
+	{
+	  "title": "E-CALCULATOR",
+	  "overlay": "CountCare",
+	  "id": "5",
+	  "image": "calculator.png",
+	  "url": "https://count-care.netlify.app/",
+	  "github_url": "https://github.com/Rashadul-Haque-JS/vanilla-js-calculator",
+	  "description": "This digital tool provides a user-friendly interface for quick and accurate mathematical operations.",
+	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Vue", "Github"]
+	},
+	{
 	  "title": "DASHBOARD",
 	  "overlay": "Wanderlust",
-	  "id": "3",
+	  "id": "6",
 	  "image": "dashboard.png",
 	  "url": "https://ithsdeshboardraom.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/Slutprojekt-crossplatform/tree/develop",
 	  "description": "API Dash: School project dashboard displaying temp, time, local bus info. Collaborative effort. Simplifying data access.",
-	  "tags": ["React", "JavaScript", "ES6", "CSS3", "HTML", "Github"]
+	  "tags": ["React", "API", "ES6", "CSS3", "HTML", "Github"]
 	},
 	{
 	  "title": "WHERE IT'S AT",
 	  "overlay": "Harmony",
-	  "id": "4",
+	  "id": "7",
 	  "image": "eticket.png",
 	  "url": "https://where-its-at.vercel.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/where-its-at",
@@ -52,7 +72,7 @@
 	{
 	  "title": "TEFLON",
 	  "overlay": "Smarties",
-	  "id": "4",
+	  "id": "8",
 	  "image": "teflon.png",
 	  "url": "https://teflon-samrties.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/teflon-todo-app-vue",
@@ -62,7 +82,7 @@
 	{
 	  "title": "STARS",
 	  "overlay": "Far-flung",
-	  "id": "4",
+	  "id": "9",
 	  "image": "stars.png",
 	  "url": "https://steller-conflict.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-react-typescript",

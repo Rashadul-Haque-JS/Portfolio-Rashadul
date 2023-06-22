@@ -59,17 +59,27 @@ const Main = () => {
       </div>
 
       <div
-        className={`py-${activeComponent === "Projects" ?4:10}`}
+      className="sm:px-0 px-8 py-8"
         style={{
-          background: "#034058",
+        background: "#034058",
         }}
       >
-       {activeComponent === "Projects" && (
-         <div className="flex justify-center items-start mb-5 text-slate-50 gap-4">
-         <button onClick={()=>setOthersProjects(false)}>Deployed</button>
-         <button onClick={()=>setOthersProjects(true)} >Others</button>
-       </div>
-       )}
+        {activeComponent === "Projects" && (
+          <div className="flex justify-center items-start mb-5 text-slate-50 gap-4">
+            <button
+              className={`${!othersProjects ? "underline text-[#FEF17F]" : ""}`}
+              onClick={() => setOthersProjects(false)}
+            >
+              Deployed
+            </button>
+            <button
+              className={`${othersProjects ? "underline text-[#FEF17F]" : ""}`}
+              onClick={() => setOthersProjects(true)}
+            >
+              Others
+            </button>
+          </div>
+        )}
 
         {activeComponent === "About" && <About />}
         {activeComponent === "Tech" && <TechKnowledges />}
