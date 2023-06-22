@@ -1,13 +1,23 @@
 [
 	{
+	  "title": "GREENFIE",
+	  "overlay": "FreshLeaf",
+      "id": "1",
+      "image": "green-poster.png",
+      "url": "https://greenfie-apps.vercel.app/",
+      "github_url": "https://github.com/Rashadul-Haque-JS/greenfie-apps",
+      "description":"Greenfie: Connecting veggie buyers and rooftop cultivators. 20% towards initial goal. Website in progress.",
+      "tags": ["Next", "Typescript",  "Tailwind", "Github", "Vercel"]
+	},
+	{
 	  "title": "SHOP SENSES",
 	  "overlay": "Economical",
       "id": "1",
       "image": "shopsense.png",
       "url": "https://shop-sense.vercel.app/",
       "github_url": "https://github.com/Rashadul-Haque-JS/Shop-Sense",
-      "description":"A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-      "tags": ["Next", "APIs", "JavaScript", "ES6", "Tailwind", "Github", "Vercel"]
+      "description":"Track purchases, avoid excess charges, manage budget. User-friendly, secure, offline-ready. Hassle-free travel experience.",
+      "tags": ["Next", "IndexedDB", "Tailwind", "Github", "Vercel"]
 	},
 	{
 	  "title": "E-WALLET",
@@ -16,8 +26,8 @@
 	  "image": "ewallet.png",
 	  "url": "https://e-wallet-rashadul.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/e-wallet-project",
-	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Pair Program", "Github"]
+	  "description": "CustomWallet: Design your digital wallet. Personalize, secure, and simplify transactions. Empower your financial freedom.",
+	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Vue", "Github"]
 	},
 	{
 	  "title": "DASHBOARD",
@@ -26,7 +36,7 @@
 	  "image": "dashboard.png",
 	  "url": "https://ithsdeshboardraom.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/Slutprojekt-crossplatform/tree/develop",
-	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
+	  "description": "API Dash: School project dashboard displaying temp, time, local bus info. Collaborative effort. Simplifying data access.",
 	  "tags": ["React", "JavaScript", "ES6", "CSS3", "HTML", "Github"]
 	},
 	{
@@ -37,7 +47,7 @@
 	  "url": "https://where-its-at.vercel.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/where-its-at",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
+	  "tags": ["Vue",  "ES6", "CSS3", "HTML", "Github"]
 	},
 	{
 	  "title": "TEFLON",
@@ -46,8 +56,8 @@
 	  "image": "teflon.png",
 	  "url": "https://teflon-samrties.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/teflon-todo-app-vue",
-	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
+	  "description": "ConcertPass: Buy live concert tickets from multiple vendors. Simplifying access to diverse concert experiences.",
+	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Github"]
 	},
 	{
 	  "title": "STARS",
@@ -57,7 +67,7 @@
 	  "url": "https://steller-conflict.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-react-typescript",
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["React", "APIs","JavaScript", "ES6", "CSS3", "HTML", "Github"]
+	  "tags": ["React", "Typescript","JavaScript", "API", "CSS3", "HTML", "Github"]
 	}
   ]
 

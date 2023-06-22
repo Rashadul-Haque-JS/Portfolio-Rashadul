@@ -29,7 +29,7 @@ const TechComponent = ({ title, tech }: any) => {
   const symbol = getSymbol(title);
 
   return (
-    <div className="bg-white rounded-lg shadow-md pb-4">
+    <div className="bg-white rounded-lg shadow-md pt-4 pb-4">
       <div className="flex justify-center items-center gap-2 bg-[#275368] text-white text-center py-2 px-4 w-full rounded-tl-lg rounded-tr-lg">
         <span className="text-lg font-semibold">{symbol}</span>
         <p className="text-lg font-semibold">{title}</p>

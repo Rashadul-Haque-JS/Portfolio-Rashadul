@@ -26,3 +26,10 @@ export interface Props {
 export interface ExperienceProps {
   data: Props;
 }
+
+export interface OtherProjectProps {
+image: string;
+title: string;
+shortDesc: string;
+url: string;
+}

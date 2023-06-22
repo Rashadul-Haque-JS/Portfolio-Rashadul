@@ -6,8 +6,10 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Education from "./Education";
 import Recommendation from "./Recommendation";
+import OthersProjects from "./OthersProjects";
 
 const Main = () => {
+  const [othersProjects, setOthersProjects] = useState(false);
   const [activeComponent, setActiveComponent] = useState("About");
 
   const handleComponentChange = (component: string) => {
@@ -39,7 +41,7 @@ const Main = () => {
           active={activeComponent === "Experience"}
           onClick={() => handleComponentChange("Experience")}
         >
-        Experience
+          Experience
         </Button>
         <Button
           active={activeComponent === "Education"}
@@ -55,19 +57,27 @@ const Main = () => {
         </Button>
         {/* Add more buttons for other components */}
       </div>
+
       <div
-        className="py-10 sm:py-8 "
+        className={`py-${activeComponent === "Projects" ?4:10}`}
         style={{
-          background:
-            "#034058",
+          background: "#034058",
         }}
       >
+       {activeComponent === "Projects" && (
+         <div className="flex justify-center items-start mb-5 text-slate-50 gap-4">
+         <button onClick={()=>setOthersProjects(false)}>Deployed</button>
+         <button onClick={()=>setOthersProjects(true)} >Others</button>
+       </div>
+       )}
+
         {activeComponent === "About" && <About />}
         {activeComponent === "Tech" && <TechKnowledges />}
-        {activeComponent === "Projects" && <Projects />}
-        {activeComponent === "Experience" && <Experience/>}
-        {activeComponent === "Education" && <Education/>}
-        {activeComponent === "Recommendation" && <Recommendation/>}
+        {activeComponent === "Projects" && !othersProjects && <Projects />}
+        {activeComponent === "Projects" && othersProjects && <OthersProjects />}
+        {activeComponent === "Experience" && <Experience />}
+        {activeComponent === "Education" && <Education />}
+        {activeComponent === "Recommendation" && <Recommendation />}
         {/* Add conditional rendering for other components */}
       </div>
     </div>
