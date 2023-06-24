@@ -1,7 +1,7 @@
 import React from "react";
 import myImg from "../assets/images/rashadul.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import logo from '../assets/images/rasha-logo.png'
+import logo from '../assets/images/programming.png'
 const Header = () => {
   return (
     <header className="app-header border shadow-md text-white p-8 flex sm:justify-center items-center sm:items-start relative sm:h-[300px]">

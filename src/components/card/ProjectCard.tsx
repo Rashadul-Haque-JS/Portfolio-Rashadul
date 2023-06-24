@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { ProjectCardProps } from "../../types";
+import live from "../../assets/images/globe.png";
 
 const ProjectCard = ({ item }: ProjectCardProps) => {
   const [hover, setHover] = useState(false);
@@ -27,7 +28,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     borderRadius: "0.5rem",
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
     transition: "transform 0.3s ease",
-    transform: hover ? "scale(0.98)" : "scale(1)",
+    transform: hover ? "scale(0.99)" : "scale(1)",
     height: "620px",
     background: "#547D8E",
   };
@@ -39,10 +40,9 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     borderRadius: "0.25rem",
     marginBottom: "1.5rem",
     textAlign: "center",
-    fontSize: "1.5rem",
     fontWeight: "bold",
     transition: "transform 0.3s ease",
-    transform: hover ? "scale(0.98)" : "scale(1)",
+    transform: hover ? "scale(0.99)" : "scale(1)",
   };
   const linksStyle: React.CSSProperties = {
    backgroundColor: hover? "#FEF17F": "transparent",
@@ -54,7 +54,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     fontSize: "1.5rem",
     fontWeight: "bold",
     transition: "transform 0.3s ease",
-    transform: hover ? "scale(0.98)" : "scale(1)",
+    transform: hover ? "scale(0.99)" : "scale(1)",
   };
 
   const tagStyle: React.CSSProperties = {
@@ -82,8 +82,9 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
       onTouchStart={() => setHover(!hover)}
     >
       {!hover && (
-        <div className="project-overlay" style={linksStyle}>
-          {item.overlay}
+        <div className="flex flex-col justify-center items-center gap-3" style={linksStyle}>
+        <img  className=" w-6 h-6 rounded-full border z-30" src={live} alt="live logo" />
+        <div className="uppercase text-[20px]">{item.overlay}</div> 
         </div>
       )}
       {hover && (
@@ -98,7 +99,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
             setHover(true);
           }}
         >
-          <span className="z-30">🔗</span> <span className="z-30">CODE</span>
+          <span className="z-30 text-[18px] font-bold">🔗</span> <span className="z-30 text-[18px] font-bold">CODE</span>
         </a>
       )}
         <div className="flex justify-center items-center relative" style={imageContainerStyle}>
@@ -114,14 +115,14 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
               setHover(true);
             }}
           >
-            <span className="z-30">🔗</span> <span className="z-30">Link</span>
+            <span className="z-30 text-[20px] font-bold">🔗</span> <span className="z-30 text-[20px] font-bold">SITE</span>
           </a>
         )}
         <img className="w-3/4 h-auto mb-4 rounded-md" src={imagePath} alt={item.overlay} />
         </div>
       
       <h2 className="text-white">{item.title}</h2>
-      <p className="py-4 text-[#FEF17F]">{item.description}</p>
+      <p className="py-4 text-[#FEF17F]" style={{lineHeight:'20px'}}>{item.description}</p>
       <div className="flex justify-start items-center flex-wrap w-full">
         {item.tags.map((tag: any) => (
           <span key={tag} style={tagStyle}>

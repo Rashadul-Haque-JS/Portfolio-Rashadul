@@ -19,6 +19,8 @@ const TechComponent = ({ title, tech }: any) => {
         return "✅";
       case "Deploy":
         return "🚀";
+      case "Agile":
+        return "🔄";
       case "Tools":
         return "🛠️";
       default:

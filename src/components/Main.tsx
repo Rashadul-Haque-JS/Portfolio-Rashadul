@@ -8,9 +8,9 @@ import Education from "./Education";
 import Recommendation from "./Recommendation";
 import OthersProjects from "./OthersProjects";
 import uxDesign from "../assets/images/figma.png";
-import live from "../assets/images/globe.png"
-import codebase from "../assets/images/programming.png"
-
+import live from "../assets/images/globe.png";
+import codebase from "../assets/images/programming.png";
+import ProjectViewBtn from "./button/projectViewBtn";
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
   const [activeComponent, setActiveComponent] = useState("About");
@@ -68,34 +68,20 @@ const Main = () => {
         }}
       >
         {activeComponent === "Projects" && (
-         <div className="flex justify-center items-start mb-5 text-slate-50 gap-4 font-semibold">
-         <button
-           className={`border px-2 py-1 rounded-lg text-[#FFF] flex justify-center items-center gap-2 ${!othersProjects ? "border-b-2 border-b-[#FEF17F]" : ""}`}
-           onClick={() => setOthersProjects(false)}
-         >
-           <img
-             src={live}
-             alt="Deployed"
-             className={`h-8 w-8 ${
-               !othersProjects ? "spinning" : ""
-             }`}
-           />
-           <span className="w-fit uppercase">Live</span>
-         </button>
-         <button
-           className={`border px-2 py-1 rounded-lg text-[#FFF] flex justify-center items-center gap-2 ${othersProjects ? "border-b-2 border-b-[#FEF17F]" : ""}`}
-           onClick={() => setOthersProjects(true)}
-         >
-           <img
-             src={codebase}
-             alt="Others"
-             className={`h-8 w-8 ${othersProjects ? "spinning" : ""} `}
-           />
-           <span className="w-fit uppercase">Others</span>
-         </button>
-       </div>
-       
-       
+          <div className="flex justify-center items-start mb-5 text-slate-50 gap-4 font-semibold">
+            <ProjectViewBtn
+              active={!othersProjects}
+              onClick={() => setOthersProjects(false)}
+              icon={live}
+              label="website"
+            />
+            <ProjectViewBtn
+              active={othersProjects}
+              onClick={() => setOthersProjects(true)}
+              label="others"
+              icon={codebase}
+            />
+          </div>
         )}
         {activeComponent === "Tech" && (
           <div className="flex justify-center items-start mb-5 text-[#FEF17F] gap-4 font-semibold">

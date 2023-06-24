@@ -32,3 +32,10 @@ title: string;
 shortDesc: string;
 url: string;
 }
+
+export interface ProjectViewBtnProps {
+  active: boolean;
+  onClick: () => void;
+  icon: string;
+  label: string;
+}

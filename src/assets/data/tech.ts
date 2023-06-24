@@ -43,17 +43,23 @@ export const techData = [
   • Azure`
     },
     {
+      title: 'Agile',
+      tech: `Trello
+  • Jira
+ 
+  `
+  },
+    {
       title: 'Tools',
       tech: ` Git
-  • Github
-  • Gitlab
   • Docker
-  • Postman
   • VS Code
   • Figma
   • Adobe XD
-  • Trello
-  • Jira`
+  • Insomnia
+  • Postman
+  `
+  
     }
   ];
   
