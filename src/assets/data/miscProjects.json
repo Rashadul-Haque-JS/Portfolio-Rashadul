@@ -40,7 +40,7 @@
 	 
 	},
 	{
-	  "title": "QUIZ APP",
+	  "title": "FULLSTACK QUIZ APP",
 	  "id": "16",
 	  "image": "globe.png",
 	  "url": "https://github.com/Rashadul-Haque-JS/fullstack-quiz-project",
@@ -55,14 +55,16 @@
 	  "shortDesc": "E-commerce project: Group project for developing online shopping for Sinus (School Project)."
 	  
 	},
+
 	{
-	  "title": "COLD-N-YUMMY",
-	  "id": "18",
-	  "image": "globe.png",
-	  "url": "https://github.com/Rashadul-Haque-JS/project-cold-n-yummy",
-	  "shortDesc": "A project where user can cast their vote for their favorite ice cream flavor."
-	  
-	},
+		"title": "E-CALCULATOR",
+		"id": "18",
+		"image": "calculator.png",
+		"url": "https://github.com/Rashadul-Haque-JS/vanilla-js-calculator",
+		"shortDesc": "This digital tool provides a user-friendly interface for quick and accurate mathematical operations."
+		
+	  },
+	
 	{
 	  "title": "SW BACKEND",
 	  "id": "19",

@@ -2,13 +2,12 @@ import React, { useEffect, useState } from "react";
 import { OtherProjectProps } from "../../types";
 
 const OthersProjectCard = ({
-  image,
   title,
   shortDesc,
   url,
 }: OtherProjectProps) => {
   const [hover, setHover] = useState(false);
-  const imagePath = require(`../../assets/images/globe.png`);
+  const imagePath = require(`../../assets/images/program.png`);
 
   useEffect(() => {
     const handleTouchMove = () => {
@@ -44,10 +43,10 @@ const OthersProjectCard = ({
       </div>
 
       {hover && (
-        <div className="absolute top-0 right-0 w-full h-full bg-gray-800 text-white bg-opacity-90 flex justify-center items-center rounded-lg" style={{border:'solid     8px #FEF17F'}}>
+        <div className="absolute top-0 right-0 w-full h-full bg-gray-800 text-white bg-opacity-90 flex justify-center items-center rounded-lg" style={{border:'solid 8px #1DB5C6'}}>
           <a
             href={url}
-            className="px-8 py-2 rounded-lg bg-yellow-500 text-black font-bold"
+            className="px-8 py-2 rounded-lg bg-[#1DB5C6] text-black font-bold"
             onTouchStart={(e) => {
               e.stopPropagation();
               setHover(true);

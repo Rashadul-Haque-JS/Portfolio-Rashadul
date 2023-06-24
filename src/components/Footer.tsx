@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const Footer = () => {
   return (
-    <div className="sm:py-10 mt-28 ">
+    <div className="sm:py-4 sm:mt-8 mt-16  ">
       <Skills />
       <div
         className="bg-[#001D2D] py-20 "
@@ -13,19 +13,9 @@ const Footer = () => {
         }}
       >
         <div className="container mx-auto text-center">
-          <h2
-            style={{
-              fontSize: "18px",
-              color: "white",
-              marginBottom: "5%",
-            }}
-          >
-            Contact Me
-          </h2>
-          <div style={{ marginTop: "5%", marginBottom: "5%" }}>
-            <p
+        <p
               style={{
-                fontSize: "16px",
+                fontSize: "18px",
                 color: "white",
                 lineHeight: "35px",
                 margin: "0",
@@ -35,7 +25,7 @@ const Footer = () => {
             </p>
             <p
               style={{
-                fontSize: "16px",
+                fontSize: "15px",
                 color: "white",
                 lineHeight: "35px",
                 margin: "0",
@@ -43,6 +33,16 @@ const Footer = () => {
             >
              Stockholm, Sweden
             </p>
+          <div style={{ marginTop: "5%", marginBottom: "5%" }}>
+          <h2
+            style={{
+              fontSize: "18px",
+              color: "white",
+              marginBottom: "1%",
+            }}
+          >
+            Contact Me
+          </h2>
             <p
               style={{
                 fontSize: "15px",

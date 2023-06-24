@@ -7,6 +7,8 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Recommendation from "./Recommendation";
 import OthersProjects from "./OthersProjects";
+import uxDesign from "../assets/images/figma.png";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
@@ -59,13 +61,13 @@ const Main = () => {
       </div>
 
       <div
-      className="sm:px-0 px-8 py-8"
+        className="sm:px-0 px-8 py-8"
         style={{
-        background: "#034058",
+          background: "#034058",
         }}
       >
         {activeComponent === "Projects" && (
-          <div className="flex justify-center items-start mb-5 text-slate-50 gap-4">
+          <div className="flex justify-center items-start mb-5 text-slate-50 gap-4 font-semibold">
             <button
               className={`${!othersProjects ? "underline text-[#FEF17F]" : ""}`}
               onClick={() => setOthersProjects(false)}
@@ -80,6 +82,11 @@ const Main = () => {
             </button>
           </div>
         )}
+        {activeComponent === "Tech" && (
+          <div className="flex justify-center items-start mb-5 text-slate-50 gap-4 font-semibold">
+            I work with the following technologies
+          </div>
+        )}
 
         {activeComponent === "About" && <About />}
         {activeComponent === "Tech" && <TechKnowledges />}
@@ -88,7 +95,20 @@ const Main = () => {
         {activeComponent === "Experience" && <Experience />}
         {activeComponent === "Education" && <Education />}
         {activeComponent === "Recommendation" && <Recommendation />}
-        {/* Add conditional rendering for other components */}
+      </div>
+      <div className="flex justify-center items-center my-8 py-12 relative">
+        <img
+          className="w-full h-auto"
+          src={uxDesign}
+          alt="UX design"
+          style={{ border: "solid #5618F0 2px" }}
+        />
+        <div className="flex justify-center items-start gap-4 absolute top-20 left-8 sm:top-4 md:top-18">
+          <h2 className=" sm:text-sm md:text-sm text-md font-bold text-white sm:text-black mb-4">E-Commerce UX Project Design</h2>
+          <a className="text-[#FEF17F] sm:text-[#5618f0] font-semibold " href="https://www.figma.com/file/xxXt5Xs3aSr9twt7n8ilCw/Sinus_webshop-(Template)?type=design&node-id=83%3A3121&mode=design&t=asH98uozDjQ1kxtH-1">
+          🔗 Design Link
+          </a>
+        </div>
       </div>
     </div>
   );
