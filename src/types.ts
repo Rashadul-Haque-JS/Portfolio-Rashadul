@@ -39,3 +39,6 @@ export interface ProjectViewBtnProps {
   icon: string;
   label: string;
 }
+
+
+// export interface ProjectViewProps {}
