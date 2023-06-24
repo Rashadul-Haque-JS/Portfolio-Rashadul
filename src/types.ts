@@ -41,4 +41,3 @@ export interface ProjectViewBtnProps {
 }
 
 
-// export interface ProjectViewProps {}
