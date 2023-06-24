@@ -1,10 +1,11 @@
 import React from "react";
 import myImg from "../assets/images/rashadul.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import logo from '../assets/images/rasha-logo.png'
 const Header = () => {
   return (
     <header className="app-header border shadow-md text-white p-8 flex sm:justify-center items-center sm:items-start relative sm:h-[300px]">
+      <img  className=" w-10 h-10 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30" src={logo} alt="personal logo" />
       <img
         className="profile-img w-[240px] h-[240px] sm:w-40 sm:h-40 md:w-64 md:h-64 p-0  z-30"
         src={myImg}
@@ -18,7 +19,7 @@ const Header = () => {
           Full Stack Developer
         </p>
       </div>
-      <div className="flex justify-center items-center gap-6 absolute top-4 right-48 md:right-40 sm:static z-30">
+      <div className="flex justify-center items-center gap-6 absolute sm:top-4 top-6 right-48 md:right-40 sm:static z-30">
         <a href="https://github.com/Rashadul-Haque-JS">
           <FaGithub size={24} />
         </a>

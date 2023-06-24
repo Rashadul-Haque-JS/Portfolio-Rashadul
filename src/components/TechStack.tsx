@@ -11,6 +11,9 @@ const TechKnowledges = () => {
             <TechComponent key={index} title={tech.title} tech={tech.tech} />
           ))}
         </div>
+      <p className="mt-12 p-6 text-gray-600">
+      ☁️ Knowledgeable in Cloud Web Apps Deployment and Database Management on AWS and GCP with hands-on experience in exercising IAM (Identity and Access Management) services as well.
+      </p>
       </div>
     </div>
   );

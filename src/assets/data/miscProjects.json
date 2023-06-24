@@ -2,75 +2,75 @@
 	{
 	  "title": "SONGFIE",
       "id": "11",
-      "image": "globe.png",
       "url": "https://github.com/Rashadul-Haque-JS/songfie-project",
       "shortDesc":"Fullstack project: Share your favorite songs with friends. Collaborative effort. Simplifying music sharing."
      
 	},
 	{
+		"title": "BACKEND DEVELOPMENT",
+		"id": "15",
+		"url": "https://github.com/Rashadul-Haque-JS/Backend-real-estate-project",
+		"shortDesc": "Backend project: Collaborative effort. Simplifying real estate data access."
+	   
+	  },
+	  {
+		"title": "FULLSTACK QUIZ APP",
+		"id": "16",
+		"url": "https://github.com/Rashadul-Haque-JS/fullstack-quiz-project",
+		"shortDesc": "Project has two parts, one with Node.js based backend using Restful API and another is frontend which built on vuex."
+	  
+	  },
+	{
 	  "title": "AGILE APP",
       "id": "12",
-      "image": "globe.png",
       "url": "https://github.com/Rashadul-Haque-JS/fullstack-agile-app-project",
       "shortDesc":"Agile app: Collaborative effort. Simplifying agile project management app using react and nx monorepo."
     
 	},
-	{
-	  "title": "JEST TEST",
-	  "id": "13",
-	  "image": "globe.png",
-	  "url": "https://github.com/Rashadul-Haque-JS/jest-test-exercises",
-	  "shortDesc": "Exercise in Jest testing."
-	 
-	},
+	
 	{
 	  "title": "REDUX TOOLKIT",
-	  "id": "14",
-	  "image": "globe.png",
+	  "id": "15",
 	  "url": "https://github.com/Rashadul-Haque-JS/redux-toolkit-asyncthunk",
 	  "shortDesc": "Exercise in redux toolkit with asyncthunk."
 	
 	},
-	{
-	  "title": "BACKEND DEVELOPMENT",
-      "id": "15",
-	  "image": "globe.png",
-	  "url": "https://github.com/Rashadul-Haque-JS/Backend-real-estate-project",
-	  "shortDesc": "Backend project: Collaborative effort. Simplifying real estate data access."
-	 
-	},
-	{
-	  "title": "FULLSTACK QUIZ APP",
-	  "id": "16",
-	  "image": "globe.png",
-	  "url": "https://github.com/Rashadul-Haque-JS/fullstack-quiz-project",
-	  "shortDesc": "Project has two parts, one with Node.js based backend using Restful API and another is frontend which built on vuex."
-	
-	},
+
 	{
 	  "title": "WEB SHOP",
-	  "id": "17",
-	  "image": "globe.png",
+	  "id": "18",
 	  "url": "https://github.com/Rashadul-Haque-JS/sinus-webshop-project-vuex",
 	  "shortDesc": "E-commerce project: Group project for developing online shopping for Sinus (School Project)."
 	  
 	},
+	{
+		"title": "JEST TEST",
+		"id": "13",
+		"url": "https://github.com/Rashadul-Haque-JS/jest-test-exercises",
+		"shortDesc": "Exercise in Jest testing."
+	   
+	  },
+	  {
+		"title": "CYPRESS TEST",
+		"id": "14",
+		"url": "https://github.com/Rashadul-Haque-JS/manual-and-cypress-tests-exercise",
+		"shortDesc": "Five level testing exercise in Cypress."
+	   
+	  },
+	  {
+		"title": "SW BACKEND",
+		"id": "20",
+		"url": "https://github.com/Rashadul-Haque-JS/Starwars-project-backend",
+		"shortDesc": "Backend project: Star wars backend project based on Express."
+	  
+	  },
 
 	{
 		"title": "E-CALCULATOR",
-		"id": "18",
+		"id": "19",
 		"image": "calculator.png",
 		"url": "https://github.com/Rashadul-Haque-JS/vanilla-js-calculator",
 		"shortDesc": "This digital tool provides a user-friendly interface for quick and accurate mathematical operations."
 		
-	  },
-	
-	{
-	  "title": "SW BACKEND",
-	  "id": "19",
-	  "image": "globe.png",
-	  "url": "https://github.com/Rashadul-Haque-JS/Starwars-project-backend",
-	  "shortDesc": "Backend project: Star wars backend project based on Express."
-	
-	}
-  ]
+	  }
+ ]

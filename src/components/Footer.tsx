@@ -51,6 +51,16 @@ const Footer = () => {
                 margin: "0",
               }}
             >
+             +46760168213
+            </p>
+            <p
+              style={{
+                fontSize: "15px",
+                color: "white",
+                lineHeight: "35px",
+                margin: "0",
+              }}
+            >
               rashadulhaq.dev@gmail.com
             </p>
           </div>

@@ -27,7 +27,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     borderRadius: "0.5rem",
     boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
     transition: "transform 0.3s ease",
-    transform: hover ? "scale(0.95)" : "scale(1)",
+    transform: hover ? "scale(0.98)" : "scale(1)",
     height: "620px",
     background: "#547D8E",
   };
@@ -42,7 +42,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     fontSize: "1.5rem",
     fontWeight: "bold",
     transition: "transform 0.3s ease",
-    transform: hover ? "scale(0.95)" : "scale(1)",
+    transform: hover ? "scale(0.98)" : "scale(1)",
   };
   const linksStyle: React.CSSProperties = {
    backgroundColor: hover? "#FEF17F": "transparent",
@@ -54,7 +54,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     fontSize: "1.5rem",
     fontWeight: "bold",
     transition: "transform 0.3s ease",
-    transform: hover ? "scale(0.95)" : "scale(1)",
+    transform: hover ? "scale(0.98)" : "scale(1)",
   };
 
   const tagStyle: React.CSSProperties = {

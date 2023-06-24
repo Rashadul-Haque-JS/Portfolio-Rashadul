@@ -30,7 +30,30 @@
       margin-top: 0;
     }
     
-    
+/* Indicate current display of project view */
+.current-display {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.current-display  {
+  transition: border-color 0.3s ease;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  animation: spin 20s linear infinite;
+}
+
 
 
   

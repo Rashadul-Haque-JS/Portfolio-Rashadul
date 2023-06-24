@@ -7,7 +7,7 @@ const OthersProjectCard = ({
   url,
 }: OtherProjectProps) => {
   const [hover, setHover] = useState(false);
-  const imagePath = require(`../../assets/images/program.png`);
+  const imagePath = require(`../../assets/images/programming.png`);
 
   useEffect(() => {
     const handleTouchMove = () => {
@@ -33,7 +33,7 @@ const OthersProjectCard = ({
         <img
           src={imagePath}
           alt="Card Image"
-          className="object-cover rounded-lg sm:w-full w-[140px]"
+          className="object-cover rounded-lg sm:w-full w-[120px]"
         />
         </div>
         <div className="text-start w-1/2 sm:w-full sm:text-center">
