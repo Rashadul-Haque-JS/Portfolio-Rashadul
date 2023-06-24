@@ -40,4 +40,9 @@ export interface ProjectViewBtnProps {
   label: string;
 }
 
+// TODO:
+export interface ProjectViewProps {
+  onClick: () => void;
+}
+
 
