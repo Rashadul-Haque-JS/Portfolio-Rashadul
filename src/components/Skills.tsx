@@ -1,7 +1,8 @@
 import React from "react";
-
+import Fade from 'react-reveal/Fade';
 const Skills = () => {
   return (
+    <Fade>
     <div className="bg-[#00293B] pt-8 pb-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold text-white mb-4 text-center underline pb-3">SKILLS</h2>
@@ -27,6 +28,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </Fade>
   );
 };
 

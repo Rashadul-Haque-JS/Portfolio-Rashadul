@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { OtherProjectProps } from "../../types";
-
+import Fade from "react-reveal/Fade";
 const OthersProjectCard = ({
   title,
   shortDesc,
@@ -22,6 +22,7 @@ const OthersProjectCard = ({
   }, []);
 
   return (
+    <Fade>
     <div
       className="relative w-5/6"
       onMouseEnter={() => setHover(true)}
@@ -57,6 +58,7 @@ const OthersProjectCard = ({
         </div>
       )}
     </div>
+    </Fade>
   );
 };
 
