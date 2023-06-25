@@ -32,7 +32,7 @@ const OthersProjectCard = ({
         <div className="w-1/2 ">
         <img
           src={imagePath}
-          alt="Card Image"
+          alt="personal brands"
           className="object-cover rounded-lg sm:w-full w-[120px]"
         />
         </div>

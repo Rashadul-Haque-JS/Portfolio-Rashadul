@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import { ProjectViewBtnProps } from "../../types";
 
 const ProjectViewBtn = ({ active, onClick, icon, label }:ProjectViewBtnProps) => {
