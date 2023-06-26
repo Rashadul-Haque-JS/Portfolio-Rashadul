@@ -66,7 +66,7 @@ const Main = () => {
       </Fade>
 
       <div
-        className="sm:px-0 px-8 py-8"
+        className="py-8"
         style={{
           background: "#034058",
         }}
