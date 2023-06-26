@@ -21,7 +21,7 @@ const Footer = () => {
                 margin: "0",
               }}
             >
-              Rasahadul Haque
+              Rashadul Haque
             </p>
             <p
               style={{
