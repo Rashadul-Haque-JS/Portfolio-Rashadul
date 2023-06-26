@@ -36,7 +36,6 @@ const Header = () => {
           <FaLinkedin size={24} className="rounded-full" />
         </a>
       </div>
-      <div className="absolute w-full h-full top-0 right-0 bg-[#000] opacity-10"></div>
     </header>
   );
 };
