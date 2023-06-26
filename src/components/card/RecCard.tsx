@@ -12,7 +12,7 @@ const RecCard = ({ data }: any) => {
   };
 
   return (
-    <div className="bg-white rounded-lg px-6 py-6 sm:py-4 mb-6 shadow-sm">
+    <div className="bg-white rounded-lg px-6  py-6 sm:py-4 mb-6 shadow-sm">
       <blockquote className="font-normal leading-normal mb-4 text-start">
         {addSpace()}
         <span className="custom-quotation-mark">”</span>
