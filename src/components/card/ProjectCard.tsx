@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ProjectCardProps } from "../../types";
 import live from "../../assets/images/globe.png";
-import Fade from "react-reveal/Fade";
+
 
 const ProjectCard = ({ item }: ProjectCardProps) => {
   const [hover, setHover] = useState(false);
@@ -73,7 +73,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     marginBottom: "4px", // Adjust the desired margin here
   };
   return (
-    <Fade>
+  
       <div
         style={cardStyle}
         className={`hover:border-gray-800 ${hover ? "border-gray-800" : ""}`}
@@ -149,7 +149,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
           ))}
         </div>
       </div>
-    </Fade>
+    
   );
 };
 

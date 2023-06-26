@@ -1,7 +1,7 @@
 import React from "react";
 import Education from "./card/GeneralCard";
 import educationData from "../assets/data/education.json";
-import Fade from "react-reveal/Fade";
+import Fade from "./FadeIn";
 const EducationList = () => {
   return (
     <Fade>

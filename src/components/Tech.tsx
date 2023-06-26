@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import Fade from "./FadeIn";
 
 const TechComponent = ({ title, tech }: any) => {
   const techList = tech.split(" • ");

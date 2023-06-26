@@ -1,7 +1,7 @@
 import React from "react";
 import Experience from "./card/GeneralCard";
 import experienceData from "../assets/data/experience.json";
-import Fade from "react-reveal/Fade";
+import Fade from "./FadeIn";
 
 const ExperienceList = () => {
   return (

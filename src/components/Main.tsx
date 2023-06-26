@@ -11,7 +11,7 @@ import uxDesign from "../assets/images/figma.png";
 import live from "../assets/images/globe.png";
 import codebase from "../assets/images/programming.png";
 import ProjectViewBtn from "./button/projectViewBtn";
-import Fade from "react-reveal/Fade";
+import Fade from "./FadeIn";
 
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
@@ -64,6 +64,7 @@ const Main = () => {
           {/* Add more buttons for other components */}
         </div>
       </Fade>
+
       <div
         className="sm:px-0 px-8 py-8"
         style={{
@@ -94,11 +95,19 @@ const Main = () => {
 
         {activeComponent === "About" && <About />}
         {activeComponent === "Tech" && <TechKnowledges />}
-        {activeComponent === "Projects" && !othersProjects && <Projects />}
-        {activeComponent === "Projects" && othersProjects && <OthersProjects />}
+        {activeComponent === "Projects" && !othersProjects && (
+          <Fade>
+            <Projects />
+          </Fade>
+        )}
+        {activeComponent === "Projects" && othersProjects && (
+          <Fade>
+            <OthersProjects />
+          </Fade>
+        )}
         {activeComponent === "Experience" && <Experience />}
         {activeComponent === "Education" && <Education />}
-        {activeComponent === "Recommendation" && <Recommendation />}
+        {activeComponent === "Recommendation" &&  <Fade><Recommendation/></Fade> }
         {activeComponent === "Projects" && othersProjects && (
           <div className="my-6 text-center">
             <a

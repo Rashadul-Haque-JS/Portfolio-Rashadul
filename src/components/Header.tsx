@@ -2,7 +2,7 @@ import React from "react";
 import myImg from "../assets/images/rashadul.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import logo from "../assets/images/programming.png";
-import Fade from "react-reveal/Fade";
+import Fade from "./FadeIn";
 
 const Header = () => {
   return (
@@ -27,6 +27,7 @@ const Header = () => {
           </p>
         </div>
       </Fade>
+
       <div className="flex justify-center items-center gap-6 absolute sm:top-4 top-6 right-48 md:right-40 sm:static z-30">
         <a href="https://github.com/Rashadul-Haque-JS">
           <FaGithub size={24} />
