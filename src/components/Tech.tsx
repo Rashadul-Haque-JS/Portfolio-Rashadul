@@ -49,3 +49,5 @@ const TechComponent = ({ title, tech }: any) => {
 };
 
 export default TechComponent;
+
+// Compare this snippet from src/components/skills.tsx:
