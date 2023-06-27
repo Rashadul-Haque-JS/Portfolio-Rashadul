@@ -51,7 +51,7 @@ const Header = () => {
         </div>
       </Fade>
 
-      <div className="flex justify-center items-center gap-6 absolute sm:top-4 top-6 right-48 md:right-40 sm:static z-30">
+      <div className="flex justify-center items-center gap-6 absolute sm:top-4 top-6 right-40 md:right-40 sm:static z-30">
         <a href="https://github.com/Rashadul-Haque-JS">
           <FaGithub size={24} className="rounded-full"/>
         </a>
