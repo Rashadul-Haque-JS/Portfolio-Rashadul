@@ -35,23 +35,23 @@ const Header = () => {
         alt="personal logo"
       />
       <img
-        className="profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0  z-30"
+        className="profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0  z-30 sm:right-[6%]"
         src={myImg}
         alt="Rashadul Haque"
       />
       <Fade>
-        <div className="flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30">
-          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 font-bold text-lime-100 sm:tracking-tight md:tracking-tight">
+        <div className="flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30 font-header-font">
+          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 font-extrabold text-[#FFFF00] sm:tracking-tight md:tracking-tight ">
             RASHADUL HAQUE
             
           </h1>
-          <p className="text-5xl sm:text-4xl font-bold sm:w-64 md:w-64 mt-4 text-center sm:text-start ">
+          <p className="text-4xl sm:text-3xl font-extrabold sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
             {displayText}
           </p>
         </div>
       </Fade>
 
-      <div className="flex justify-center items-center gap-6 absolute sm:top-4 top-6 right-40 md:right-40 sm:static z-30">
+      <div className="flex justify-center items-center gap-4 absolute sm:top-4 top-6 right-32 md:right-30 sm:static z-30">
         <a href="https://github.com/Rashadul-Haque-JS">
           <FaGithub size={24} className="rounded-full"/>
         </a>
