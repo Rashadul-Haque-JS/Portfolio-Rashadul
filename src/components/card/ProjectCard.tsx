@@ -30,7 +30,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
     transition: "transform 0.3s ease",
     transform: hover ? "scale(0.99)" : "scale(1)",
     height: "620px",
-    background: "#547D8E",
+    background: "#003545",
   };
 
   const overlayStyle: React.CSSProperties = {

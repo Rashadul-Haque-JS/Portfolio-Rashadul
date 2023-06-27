@@ -68,7 +68,7 @@ const Main = () => {
       <div
         className="py-8"
         style={{
-          background: "#034058",
+          background: "#003545",
         }}
       >
         {activeComponent === "Projects" && (
