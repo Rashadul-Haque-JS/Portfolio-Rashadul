@@ -3,66 +3,20 @@ import Skills from "./Skills";
 
 const Footer = () => {
   return (
-    <div className="sm:py-4 sm:mt-8 mt-16  ">
+    <div className="sm:py-4 sm:mt-8 mt-16">
       <Skills />
-      <div
-        className="bg-[#001D2D] py-20 "
-        style={{
-          fontFamily: "Montserrat, sans-serif",
-          maxWidth: "1024px",
-        }}
-      >
+      <div className="bg-[#001D2D] flex flex-col justify-center items-center py-20">
         <div className="container mx-auto text-center">
-        <p
-              style={{
-                fontSize: "18px",
-                color: "white",
-                lineHeight: "35px",
-                margin: "0",
-              }}
-            >
-              Rashadul Haque
-            </p>
-            <p
-              style={{
-                fontSize: "15px",
-                color: "white",
-                lineHeight: "35px",
-                margin: "0",
-              }}
-            >
-             Stockholm, Sweden
-            </p>
-          <div style={{ marginTop: "5%", marginBottom: "5%" }}>
-          <h2
-            style={{
-              fontSize: "18px",
-              color: "white",
-              marginBottom: "1%",
-            }}
-          >
-            Contact Me
-          </h2>
-            <p
-              style={{
-                fontSize: "15px",
-                color: "white",
-                lineHeight: "35px",
-                margin: "0",
-              }}
-            >
-             +46760168213
-            </p>
-            <p
-              style={{
-                fontSize: "15px",
-                color: "white",
-                lineHeight: "35px",
-                margin: "0",
-              }}
-            >
-              rashadulhaq.dev@gmail.com
-            </p>
+          <p className="text-white text-lg font-semibold mb-2 sm:text-xl tracking-wide">
+            Rashadul Haque
+          </p>
+          <p className="text-white text-base mb-4">Stockholm, Sweden</p>
+          <div className="mb-4">
+            <h2 className="text-lg text-white font-semibold mb-2 sm:text-xl tracking-wide">
+            To Connect
+            </h2>
+            <p className="text-white text-base mb-1">+46760168213</p>
+            <p className="text-white text-base">rashadulhaq.dev@gmail.com</p>
           </div>
         </div>
       </div>
