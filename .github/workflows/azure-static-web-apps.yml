@@ -23,5 +23,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/" # Adjust this if needed
-          api_location: "" # Adjust this if needed
+          app_location: "/" 
+          api_location: "" 
+
+          # This is enough for now to get the app running
