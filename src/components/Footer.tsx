@@ -11,13 +11,14 @@ const Footer = () => {
             Rashadul Haque
           </p>
           <p className="text-white text-base mb-4">Stockholm, Sweden</p>
-          <div className="mb-4">
+          <div className="flex flex-col items-center mb-4">
             <h2 className="text-lg text-white font-semibold mb-2 sm:text-xl tracking-wide">
-            To Connect
+              To Connect
             </h2>
-            <p className="text-white text-base mb-1">+46760168213</p>
-            <p className="text-white text-base">rashadulhaq.dev@gmail.com</p>
+            <p className="text-white text-base mb-1">Phone: +46 760 168 213</p>
+            <p className="text-white text-base">Email: rashadulhaq.dev@gmail.com</p>
           </div>
+          
         </div>
       </div>
     </div>
@@ -25,3 +26,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

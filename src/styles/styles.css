@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Montserrat:wght@800;900&display=swap');
 
   .app-header {
     background-image: url('../assets/images/hero-portfolio.png');
@@ -8,6 +8,11 @@
     position: relative;
   }
   
+  .custom-txt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+   
+  }
   .profile-img{
     object-fit: cover;
     object-position: top center;

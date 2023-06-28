@@ -10,10 +10,6 @@ module.exports = {
       lg: { min: "1024px", max: "1279px" },
       xl: { min: "1280px" },
     },
-    fontFamily: {
-      "header-font": ['"M PLUS Rounded 1c"', "sans-serif"],
-    },
-    
     plugins: [],
   },
 };

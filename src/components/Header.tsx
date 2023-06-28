@@ -40,12 +40,12 @@ const Header = () => {
         alt="Rashadul Haque"
       />
       <Fade>
-        <div className="flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30 font-header-font">
-          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 font-extrabold text-[#FFFF00] sm:tracking-tight md:tracking-tight ">
+        <div className="flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30">
+          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight ">
             RASHADUL HAQUE
             
           </h1>
-          <p className="text-4xl sm:text-3xl font-extrabold sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
+          <p className="text-4xl sm:text-3xl custom-txt sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
             {displayText}
           </p>
         </div>
