@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ReactGA from 'react-ga';
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
@@ -7,6 +8,9 @@ function App() {
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_MEASUREMENT_ID!);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     const handleScroll = () => {
       if (window.pageYOffset > 400) {
         setShowButton(true);
