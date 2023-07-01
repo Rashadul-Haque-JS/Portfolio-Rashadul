@@ -46,8 +46,8 @@
 		"image": "stats.png",
 		"url": "https://statcrafts-labs.netlify.app/",
 		"github_url": "https://github.com/Rashadul-Haque-JS/corporate-dashboard",
-		"description": "Statscrafts is a comprehensive project that showcases the statistics and vital metrics of a company.",
-		"tags": ["React", "Git", "Netlify"]
+		"description": "Statscrafts is a project that showcases the statistics and vital metrics including return on advertisements of a company. This project was done with mock data.",
+		"tags": ["React", "Tailwind", "Git", "Netlify"]
 	  },
 	  {
 		"title": "WHERE IT'S AT",
