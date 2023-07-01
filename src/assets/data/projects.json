@@ -32,7 +32,7 @@
 	{
 		"title": "YUMMY",
 		"overlay": "Tasty",
-		"id": "2",
+		"id": "4",
 		"image": "yummy.png",
 		"url": "https://yummy-flavour-7z7cf.ondigitalocean.app/",
 		"github_url": "https://github.com/Rashadul-Haque-JS/project-cold-n-yummy",
@@ -40,9 +40,19 @@
 		"tags": ["Node", "mysql", "Express", "ejs", "DigitalOcean"]
 	  },
 	  {
+		"title": "STATISTICS",
+		"overlay": "Statscraft",
+		"id": "5",
+		"image": "stats.png",
+		"url": "https://statcrafts-labs.netlify.app/",
+		"github_url": "https://github.com/Rashadul-Haque-JS/corporate-dashboard",
+		"description": "Statscrafts is a comprehensive project that showcases the statistics and vital metrics of a company.",
+		"tags": ["React", "Git", "Netlify"]
+	  },
+	  {
 		"title": "WHERE IT'S AT",
 		"overlay": "Harmony",
-		"id": "7",
+		"id": "6",
 		"image": "eticket.png",
 		"url": "https://where-its-at.vercel.app/",
 		"github_url": "https://github.com/Rashadul-Haque-JS/where-its-at",
@@ -52,17 +62,18 @@
 	{
 	  "title": "SW-CATALOG",
 	  "overlay": "GalaxysEdge",
-	  "id": "4",
+	  "id": "7",
 	  "image": "sw-catalog.png",
 	  "url": "https://sw-vanilajs-project.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-school-project",
 	  "description": "Explore the Star Wars universe with ease. This project displays data from an external Star Wars API.",
 	  "tags": ["JavaScript", "API", "CSS3", "HTML", "Github"]
 	},
+	
 	{
 	  "title": "DASHBOARD",
 	  "overlay": "Wanderlust",
-	  "id": "6",
+	  "id": "5a",
 	  "image": "dashboard.png",
 	  "url": "https://ithsdeshboardraom.netlify.app/",
 	  "github_url": "https://github.com/Rashadul-Haque-JS/Slutprojekt-crossplatform/tree/develop",
@@ -90,6 +101,7 @@
 	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
 	  "tags": ["React", "Typescript","JavaScript", "API", "Netlify"]
 	}
+	
   ]
 
  
