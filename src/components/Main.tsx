@@ -15,7 +15,7 @@ import Fade from "./FadeIn";
 
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
-  const [activeComponent, setActiveComponent] = useState("About");
+  const [activeComponent, setActiveComponent] = useState("Tech");
 
   const handleComponentChange = (component: string) => {
     setActiveComponent(component);
@@ -88,8 +88,8 @@ const Main = () => {
           </div>
         )}
         {activeComponent === "Tech" && (
-          <div className="flex justify-center items-start mb-5 text-[#FEF17F] gap-4 font-semibold">
-            I work with the following technologies
+          <div className="flex justify-center items-start mb-5 text-[#FEF17F] gap-4 font-semibold text-sm uppercase">
+            Technologies I Work With
           </div>
         )}
 
