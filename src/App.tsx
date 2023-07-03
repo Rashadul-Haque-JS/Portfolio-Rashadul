@@ -33,7 +33,7 @@ function App() {
   };
 
   return (
-    <div className="mx-auto w-3/4 sm:w-full md:w-full shadow-lg h-full bg-white rounded-lg overflow-hidden mt-0 sm:mt-0 md:mt-0">
+    <div className="mx-auto w-3/4 sm:w-full md:w-full lg:w-full shadow-lg h-full bg-white rounded-lg overflow-hidden mt-0 sm:mt-0 md:mt-0 lg:mt-0">
       <Header />
       <Main />
       <Footer />

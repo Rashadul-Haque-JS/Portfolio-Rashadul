@@ -35,7 +35,7 @@ const Header = () => {
   }, [showHello]);
 
   return (
-    <header className="app-header border shadow-md text-[#FFFFFF] p-8 flex sm:justify-center items-center sm:items-start relative sm:h-[300px]">
+    <header className="app-header border shadow-md text-[#FFFFFF] p-8 flex sm:justify-between items-center sm:items-start relative sm:h-[300px]">
       {showHello && (
         <div className="absolute inset-0 flex flex-col justify-center items-center app-header-init z-30 sm:h-[300px]">
           <h1 className="text-8xl sm:text-6xl">Hello</h1>
@@ -45,7 +45,7 @@ const Header = () => {
         </div>
       )}
       <img
-        className={`w-10 h-10 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30 ${
+        className={`w-16 h-16 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30 ${
           !showHello ? "fade-out" : ""
         }`}
         src={logo}
@@ -62,7 +62,7 @@ const Header = () => {
       )}
       <Fade>
         <div
-          className={`flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30 ${
+          className={`flex flex-col justify-center sm:justify-start ml-4 sm:ms-0 z-30 ${
             showHello ? "fade-out" : ""
           }`}
         >

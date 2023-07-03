@@ -22,7 +22,7 @@ const Main = () => {
   };
 
   return (
-    <div className="sm:mt-20 mt-28 min-h-[500px]">
+    <div className="sm:mt-20 md:mt-24 mt-[6.5rem] min-h-[500px]">
       <Fade>
         <div className="flex justify-center gap-8 mb-8 sm:px-4 sm:gap-4 flex-wrap">
           <Button
