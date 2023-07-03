@@ -37,9 +37,11 @@ const Header = () => {
   return (
     <header className="app-header border shadow-md text-[#FFFFFF] p-8 flex sm:justify-between items-center sm:items-start relative sm:h-[300px]">
       {showHello && (
-        <div className="absolute inset-0 flex flex-col justify-center items-center app-header-init z-30 sm:h-[300px]">
-          <h1 className="text-8xl sm:text-6xl">Hello</h1>
-          <p className="block py-3 text-4xl sm:text-3xl text-[#FFFF00] capitalize">
+        <div className="absolute inset-0 flex flex-col justify-center items-center app-header-init z-30 sm:h-full">
+          <h1 className="text-8xl sm:text-6xl transform sm:translate-y-[-12px]">
+            Hello
+          </h1>
+          <p className="block py-2 text-4xl sm:text-3xl text-[#FFFF00] capitalize transform sm:translate-y-[-12px]">
             Welcome to my portfolio
           </p>
         </div>
