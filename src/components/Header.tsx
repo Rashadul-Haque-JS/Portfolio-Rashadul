@@ -35,7 +35,7 @@ const Header = () => {
         alt="personal logo"
       />
       <img
-        className="profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0  z-30 sm:right-[6%]"
+        className="profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0 z-30"
         src={myImg}
         alt="Rashadul Haque"
       />
@@ -51,7 +51,7 @@ const Header = () => {
         </div>
       </Fade>
 
-      <div className="flex justify-center items-center gap-4 absolute sm:top-4 top-6 right-32 md:right-30 sm:static z-30">
+      <div className="flex justify-center items-center gap-4 absolute sm:top-4 top-6 right-32 md:right-24 sm:static z-30">
         <a href="https://github.com/Rashadul-Haque-JS">
           <FaGithub size={24} className="rounded-full"/>
         </a>
