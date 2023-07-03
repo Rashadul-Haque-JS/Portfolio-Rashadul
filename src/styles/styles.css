@@ -7,6 +7,13 @@
     background-size: cover;
     position: relative;
   }
+
+  .app-header-init{
+    background-image: url('../assets/images/hero-portfolio.jpeg');
+    height: 400px;
+    background-position: center bottom;
+    background-size: cover;
+  }
   
   .custom-txt{
     font-family: 'Montserrat', sans-serif;

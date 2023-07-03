@@ -6,57 +6,83 @@ import Fade from "./FadeIn";
 
 const Header = () => {
   const [displayText, setDisplayText] = useState("");
+  const [showHello, setShowHello] = useState(true);
   const text = "Full Stack Developer";
   const timeoutRef = useRef<any>(null);
 
   useEffect(() => {
-    const displayTextRecursive = (currentIndex:number) => {
-      if (currentIndex < text.length) {
-        timeoutRef.current = setTimeout(() => {
-          setDisplayText((prevText) => prevText + text[currentIndex]);
-          displayTextRecursive(currentIndex + 1);
-        }, 100);
-      }
-    };
+    if (!showHello) {
+      const displayTextRecursive = (currentIndex: number) => {
+        if (currentIndex < text.length) {
+          timeoutRef.current = setTimeout(() => {
+            setDisplayText((prevText) => prevText + text[currentIndex]);
+            displayTextRecursive(currentIndex + 1);
+          }, 100);
+        }
+      };
 
-    setDisplayText("");
-    displayTextRecursive(0);
+      setDisplayText("");
+      displayTextRecursive(0);
+    } else {
+      setTimeout(() => {
+        setShowHello(false);
+      }, 2500);
+    }
 
     return () => {
       clearTimeout(timeoutRef.current);
     };
-  }, []);
+  }, [showHello]);
 
   return (
     <header className="app-header border shadow-md text-[#FFFFFF] p-8 flex sm:justify-center items-center sm:items-start relative sm:h-[300px]">
+      {showHello && (
+        <div className="absolute inset-0 flex flex-col justify-center items-center app-header-init z-30 sm:h-[300px]">
+          <h1 className="text-8xl sm:text-6xl">Hello</h1>
+          <p className="block py-3 text-4xl sm:text-3xl text-[#FFFF00] capitalize">
+            Welcome to my portfolio
+          </p>
+        </div>
+      )}
       <img
-        className="w-10 h-10 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30"
+        className={`w-10 h-10 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30 ${
+          !showHello ? "fade-out" : ""
+        }`}
         src={logo}
         alt="personal logo"
       />
-      <img
-        className="profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0 z-30"
-        src={myImg}
-        alt="Rashadul Haque"
-      />
+      {!showHello && (
+        <img
+          className={`profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0 z-30 ${
+            !showHello ? "fade-out" : ""
+          }`}
+          src={myImg}
+          alt="Rashadul Haque"
+        />
+      )}
       <Fade>
-        <div className="flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30">
-          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight ">
+        <div
+          className={`flex flex-col justify-center sm:justify-start ml-4 sm:ml-0 z-30 ${
+            showHello ? "fade-out" : ""
+          }`}
+        >
+          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight">
             RASHADUL HAQUE
-            
           </h1>
-          <p className="text-4xl sm:text-3xl custom-txt sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
-            {displayText}
-          </p>
+          {!showHello && (
+            <p className="text-4xl sm:text-3xl custom-txt sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
+              {displayText}
+            </p>
+          )}
         </div>
       </Fade>
 
       <div className="flex justify-center items-center gap-4 absolute sm:top-4 top-6 right-32 md:right-24 sm:static z-30">
         <a href="https://github.com/Rashadul-Haque-JS">
-          <FaGithub size={24} className="rounded-full"/>
+          <FaGithub size={24} className="rounded-full" />
         </a>
         <a href="https://www.linkedin.com/in/rashadul-haque-905642137/">
-          <FaLinkedin size={24} className="rounded-full"/>
+          <FaLinkedin size={24} className="rounded-full" />
         </a>
       </div>
     </header>
