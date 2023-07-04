@@ -7,7 +7,7 @@ const OthersProjects = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-3 w-full mx-auto">
     {miscProjectsData.map((item:any)=>(
-        <OthersProjectCard {...item}/>
+        <OthersProjectCard {...item} key={item.id}/>
     ))}
     </div>
   );
