@@ -82,16 +82,6 @@
 	},
 	
 	{
-	  "title": "TEFLON",
-	  "overlay": "Smarties",
-	  "id": "8",
-	  "image": "teflon.png",
-	  "url": "https://teflon-samrties.netlify.app/",
-	  "github_url": "https://github.com/Rashadul-Haque-JS/teflon-todo-app-vue",
-	  "description": "ConcertPass: Buy live concert tickets from multiple vendors. Simplifying access to diverse concert experiences.",
-	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Github","Netlify"]
-	},
-	{
 	  "title": "STARS",
 	  "overlay": "Far-flung",
 	  "id": "9",
