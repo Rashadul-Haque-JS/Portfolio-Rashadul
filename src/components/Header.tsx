@@ -47,7 +47,7 @@ const Header = () => {
         </div>
       )}
       <img
-        className={`w-16 h-16 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30 ${
+        className={`w-16 h-16 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full border absolute bottom-6 sm:left-8 md:left-16 left-12 z-30 personal-brand ${
           !showHello ? "fade-out" : ""
         }`}
         src={logo}
@@ -63,20 +63,19 @@ const Header = () => {
         />
       )}
       <Fade>
-        <div
-          className={`flex flex-col justify-center sm:justify-start ml-4 sm:ms-0 z-30 ${
-            showHello ? "fade-out" : ""
-          }`}
-        >
-          <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight">
-            RASHADUL HAQUE
-          </h1>
-          {!showHello && (
+        {!showHello && (
+          <div
+            className={`flex flex-col justify-center sm:justify-start ml-4 sm:ms-0 z-30 `}
+          >
+            <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight">
+              RASHADUL HAQUE
+            </h1>
+
             <p className="text-4xl sm:text-3xl custom-txt sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
               {displayText}
             </p>
-          )}
-        </div>
+          </div>
+        )}
       </Fade>
 
       <div className="flex justify-center items-center gap-4 absolute sm:top-4 top-6 right-32 md:right-24 sm:static z-30">

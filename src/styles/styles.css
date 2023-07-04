@@ -1,48 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Montserrat:wght@800;900&display=swap');
 
-  .app-header {
-    background-image: url('../assets/images/hero-portfolio.jpg');
-    height: 400px;
-    background-position: center bottom;
-    background-size: cover;
-    position: relative;
-  }
+.app-header {
+  background-image: url('../assets/images/hero-portfolio.jpg');
+  height: 400px;
+  background-position: center bottom;
+  background-size: cover;
+  position: relative;
+}
 
-  .app-header-init{
-    background-image: url('../assets/images/hero-portfolio.jpg');
-    height: 400px;
-    background-position: center bottom;
-    background-size: cover;
-  }
-  
-  .custom-txt{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-   
-  }
-  .profile-img{
-    object-fit: cover;
-    object-position: top center;
-    border-radius: 50%;
-    border: 4px solid white;
-    position: absolute;
-    bottom: -10%;
-    right: 4%;
-    transition: transform .8s; 
-  }
-    .profile-img:hover {
-    transform: scale(1.1);
-    }
+.app-header-init {
+  /* background-image: url('../assets/images/hero-portfolio.jpg'); */
+  background: none;
+  height: 400px;
+  background-position: center bottom;
+  background-size: cover;
+}
 
-    .custom-quotation-mark {
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 0.2em;
-      font-size: 1.5em;
-      line-height: 0.8;
-      margin-top: 0;
-    }
-    
+.custom-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+}
+
+.profile-img {
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: absolute;
+  bottom: -10%;
+  right: 4%;
+
+}
+
+.personal-brand {
+  transition: transform .8s;
+}
+
+.personal-brand:hover {
+  transform: scale(1.6);
+}
+
+.custom-quotation-mark {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.2em;
+  font-size: 1.5em;
+  line-height: 0.8;
+  margin-top: 0;
+}
+
 /* Indicate current display of project view */
 .current-display {
   border: 2px solid #FFFFFF;
@@ -50,7 +57,7 @@
   padding: 2px;
 }
 
-.current-display  {
+.current-display {
   transition: border-color 0.3s ease;
 }
 
@@ -58,6 +65,7 @@
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -66,6 +74,3 @@
 .spinning {
   animation: spin 20s linear infinite;
 }
-
-
-  
