@@ -55,7 +55,7 @@ const Header = () => {
       />
       {!showHello && (
         <img
-          className={`profile-img w-[200px] h-[200px] sm:w-32 sm:h-32 md:w-56 md:h-56 p-0 z-30 ${
+          className={`profile-img w-[180px] h-[180px] 3xl:w-[210px] 3xl:h-[210px] sm:w-28 sm:h-28 md:w-48 md:h-48 p-0 z-30 ${
             !showHello ? "fade-out" : ""
           }`}
           src={myImg}
