@@ -19,11 +19,11 @@ export interface Props {
   place: string;
   date: string;
   contact?: string;
-  locationType?: string;
+  info?: string;
   description: string[];
 }
 
-export interface ExperienceProps {
+export interface CommonCardProps {
   data: Props;
 }
 

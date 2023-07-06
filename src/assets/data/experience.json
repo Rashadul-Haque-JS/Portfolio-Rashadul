@@ -5,7 +5,7 @@
       "place": "Stockholm",
       "date": "Jan 2023 - Apr 2023",
       "contact":"Internship",
-      "locationType":"On-site",
+      "info":"On-site",
       "description": [
         "Successfully updated parts of the CRM system using Typescript and React, enhancing its functionality and user experience.",
         "Collaborated effectively with the team, demonstrating strong teamwork skills and contributing to the overall project success.",
@@ -20,7 +20,7 @@
       "place": "Stockholm",
       "date": "Aug 2022 - Oct 2022",
       "contact":"Internship",
-      "locationType":"Hybrid",
+      "info":"Hybrid",
       "description": [
         "Efficiently migrated the old IT dashboard to Vue.js and Node.js, improving its performance and enhancing the user interface.",
         "Demonstrated self‐independence and proactiveness by taking the initiative to go above and beyond in resolving development issues and challenges.",
@@ -34,8 +34,8 @@
       "company": "Landro AB",
       "place": "Stockholm",
       "date": "Jul 2013 - Jan 2019",
-      "contact":"Regular",
-      "locationType":"On-site",
+      "contact":"Full-time",
+      "info":"On-site",
       "description": [
         "Developed proficient skills in planning and managing diverse office tasks, including procurement of supplies, handling weekly cash transactions, and ensuring compliance with accounting regulations.",
         "Enhanced collaboration skills through active participation and effective teamwork with colleagues"
