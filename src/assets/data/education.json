@@ -4,13 +4,25 @@
       "company": "IT-Högskolan",
       "place": "Stockholm",
       "date": "Aug 2021 - May 2023",
-      "contact":"YH",
-      "locationType":"24-weeks internship",
+      "contact":"Higher Vocational Education (YH)",
+      "locationType":"24-weeks internship included",
       "description": [
         "Proficient in HTML, CSS, and JavaScript for web development.",       
         "Knowledgeable in UX/UI design and JavaScript frameworks.",        
         "Experienced in Agile development and backend programming with databases.",       
         "Skilled in cross-platform development, software life cycle management, and testing using Typescript."
+    ]
+    },
+    {"id": 102,
+      "position": "Strategic Business Information Technology",
+      "company": "NCC Education",
+      "place": "Birmingham",
+      "date": "Sep 2008 - Apr 2010",
+      "contact":"Post Graduate Diploma",
+      "locationType":"UK Education's Level 7 Qualification",
+      "description": [
+        "Studied the fundamentals of network protocols, including TCP/IP, DNS, and DHCP.",       
+        "Developed a strategic business plan based on the role of IT and technology to enhance efficiency and profitability."        
     ]
     }
   ]
