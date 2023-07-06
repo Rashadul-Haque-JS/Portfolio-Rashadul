@@ -11,9 +11,7 @@ function App() {
     if (process.env.NODE_ENV === "production") {
       ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_MEASUREMENT_ID!);
       ReactGA.pageview(window.location.pathname + window.location.search);
-      console.log("GA initialized ", process.env.REACT_APP_GOOGLE_ANALYTICS_MEASUREMENT_ID!);
-      
-    }
+      }
 
     const handleScroll = () => {
       if (window.pageYOffset > 400) {
