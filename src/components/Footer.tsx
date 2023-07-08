@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const Footer = () => {
   return (
-    <div className="sm:py-4 sm:mt-8 mt-16">
+    <div className="sm:pt-4 sm:mt-8 mt-16">
       <Skills />
       <div className="bg-[#001D2D] flex flex-col justify-center items-center py-20">
         <div className="container mx-auto text-center">

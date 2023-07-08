@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import About from "./About";
 import Button from "./NavButton";
 import TechKnowledges from "./TechStack";
@@ -16,10 +16,25 @@ import Fade from "./FadeIn";
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
   const [activeComponent, setActiveComponent] = useState("Tech");
+  const [showMessage, setShowMessage] = useState(false);
 
   const handleComponentChange = (component: string) => {
     setActiveComponent(component);
   };
+
+  useEffect(() => {
+    if (activeComponent === 'Projects' && !othersProjects) {
+      setShowMessage(true);
+
+      const timer = setTimeout(() => {
+        setShowMessage(false);
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    } else {
+      setShowMessage(false);
+    }
+  }, [activeComponent, othersProjects]);
 
   return (
     <div className="sm:mt-20 md:mt-24 mt-[6.5rem] min-h-[500px]">
@@ -93,6 +108,12 @@ const Main = () => {
           </div>
         )}
 
+        {showMessage && (
+          <p className="text-center mb-5 text-[#4FD9E4] font-semibold text-sm">
+            Please note that not all projects are designed<span className="sm:block"> for mobile devices!</span>
+          </p>
+        )}
+
         {activeComponent === "About" && <About />}
         {activeComponent === "Tech" && <TechKnowledges />}
         {activeComponent === "Projects" && !othersProjects && (
@@ -107,7 +128,11 @@ const Main = () => {
         )}
         {activeComponent === "Experience" && <Experience />}
         {activeComponent === "Education" && <Education />}
-        {activeComponent === "Recommendation" &&  <Fade><Recommendation/></Fade> }
+        {activeComponent === "Recommendation" && (
+          <Fade>
+            <Recommendation />
+          </Fade>
+        )}
         {activeComponent === "Projects" && othersProjects && (
           <div className="my-6 text-center">
             <a
