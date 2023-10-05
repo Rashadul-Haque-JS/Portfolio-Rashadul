@@ -137,7 +137,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
           />
         </div>
 
-        <h2 className="text-white">{item.title}</h2>
+        <h2 className="text-white uppercase">{item.title}</h2>
         <p className="py-4 text-[#FEF17F]" style={{ lineHeight: "20px" }}>
           {item.description}
         </p>
