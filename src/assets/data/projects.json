@@ -1,5 +1,15 @@
 [
 	{
+	  "title": "Nord Weave",
+	  "overlay": "Adventure",
+      "id": "400",
+      "image": "nord-weave.png",
+      "url": "https://test.d2p9f8obadvdvq.amplifyapp.com/",
+      "github_url": "https://github.com/Rashadul-Haque-JS/nordweave-aws-app/tree/main",
+      "description":"Embark on extraordinary outdoor expeditions with Nord Weave - Your portal to the wonders of the natural world.",
+      "tags": ["AWS", "React", "Tailwind"]
+	},
+	{
 	  "title": "GREENFIE",
 	  "overlay": "FreshLeaf",
       "id": "401",
@@ -29,16 +39,6 @@
 	  "description": "CustomWallet: Design your digital wallet. Personalize, secure, and simplify transactions. Empower your financial freedom.",
 	  "tags": ["JavaScript", "ES6", "CSS3", "HTML", "Vue", "Github","Netlify"]
 	},
-	{
-		"title": "YUMMY",
-		"overlay": "Tasty",
-		"id": "404",
-		"image": "yummy.png",
-		"url": "https://yummy-flavour-7z7cf.ondigitalocean.app/",
-		"github_url": "https://github.com/Rashadul-Haque-JS/project-cold-n-yummy",
-		"description":"Track purchases, avoid excess charges, manage budget. User-friendly, secure, offline-ready. Hassle-free travel experience.",
-		"tags": ["Node", "mysql", "Express", "ejs", "DigitalOcean"]
-	  },
 	  {
 		"title": "STATISTICS",
 		"overlay": "Statscraft",
