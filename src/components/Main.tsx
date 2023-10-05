@@ -92,7 +92,7 @@ const Main = () => {
               active={!othersProjects}
               onClick={() => setOthersProjects(false)}
               icon={live}
-              label="website"
+              label="online"
             />
             <ProjectViewBtn
               active={othersProjects}
