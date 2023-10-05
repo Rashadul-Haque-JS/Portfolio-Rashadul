@@ -16,24 +16,15 @@ const About = () => {
           During my journey in backend development, I have worked extensively
           with Node.js and PHP, gaining proficiency in frameworks such as
           Express.js and Laravel. These experiences have inspired me to create
-          powerful and efficient web applications
+          powerful and efficient web applications.
         </p>
         <p className="sm:px-6 md:px-16 px-[15%] py-3 font-light leading-normal">
           Additionally, I have knowledge in developing microservices and
           implementing a modular and scalable microservice architecture.
-        </p>
-        <p className="sm:px-6 md:px-16 px-[15%] py-3 font-light leading-normal">
-          Now, I'm eagerly seeking new opportunities and challenges to apply my
-          knowledge and further develop my skills. I'm excited to join a team
-          where I can contribute my enthusiasm, adaptability, and willingness to
-          learn. Together, we can bring innovative ideas to life and create
-          impactful solutions.
-        </p>
-        <p className=" sm:px-6 md:px-16  px-[15%] py-3 font-light leading-normal">
-          If you're looking for a dedicated and driven developer who is ready to
-          take on new projects, I would be thrilled to connect with you. Let's
-          discuss how my abilities can contribute to your organization and
-          collaborate on exciting ventures.
+          Furthermore, I have a strong skill set in various services offered by
+          Amazon Web Services (AWS), enabling me to design and deploy
+          cloud-based solutions efficiently, ensuring optimal performance,
+          scalability, and security for web applications and services.
         </p>
       </div>
     </Fade>

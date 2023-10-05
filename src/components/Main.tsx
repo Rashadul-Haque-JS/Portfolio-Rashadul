@@ -15,7 +15,7 @@ import Fade from "./FadeIn";
 
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
-  const [activeComponent, setActiveComponent] = useState("Tech");
+  const [activeComponent, setActiveComponent] = useState("Projects");
   const [showMessage, setShowMessage] = useState(false);
 
   const handleComponentChange = (component: string) => {
