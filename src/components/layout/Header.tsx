@@ -67,11 +67,11 @@ const Header = () => {
           <div
             className={`flex flex-col justify-center sm:justify-start ml-4 sm:ms-0 z-30 `}
           >
-            <h1 className="text-2xl sm:text-xl text-center sm:text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight">
+            <h1 className="text-2xl sm:text-xl text-start sm:ps-0 custom-txt text-[#FFFF00] sm:tracking-tight md:tracking-tight">
               RASHADUL HAQUE
             </h1>
 
-            <p className="text-4xl sm:text-3xl custom-txt sm:w-64 md:w-64 mt-4 text-center sm:text-start uppercase">
+            <p className="text-[2rem] sm:text-[1.8rem] custom-txt sm:w-64 md:w-64 mt-4 text-start uppercase">
               {displayText}
             </p>
           </div>
