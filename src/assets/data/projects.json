@@ -1,5 +1,15 @@
 [
 	{
+	  "title": "Tecruit Media",
+	  "overlay": "CareerPoint",
+      "id": "399",
+      "image": "tecruit.png",
+      "url": "https://tecruit-media.netlify.app/",
+      "github_url": "",
+      "description":"IT opportunities across Nordic regions through Tecruit's innovative job-matching platform, optimizing career growth for tech professionals",
+      "tags": ["React", "Tailwind", "NodeJS", "MongoDB"]
+	},
+	{
 	  "title": "Nord Weave",
 	  "overlay": "Adventure",
       "id": "400",
@@ -48,49 +58,7 @@
 		"github_url": "https://github.com/Rashadul-Haque-JS/corporate-dashboard",
 		"description": "Statscrafts is a project that showcases the statistics and vital metrics including return on advertisements of a company. This project was done with mock data.",
 		"tags": ["React", "Tailwind", "Git", "Netlify"]
-	  },
-	  {
-		"title": "WHERE IT'S AT",
-		"overlay": "Harmony",
-		"id": "406",
-		"image": "eticket.png",
-		"url": "https://where-its-at.vercel.app/",
-		"github_url": "https://github.com/Rashadul-Haque-JS/where-its-at",
-		"description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-		"tags": ["Vue",  "ES6", "CSS3", "HTML", "Github","vercel"]
-	  },
-	{
-	  "title": "SW-CATALOG",
-	  "overlay": "GalaxysEdge",
-	  "id": "407",
-	  "image": "sw-catalog.png",
-	  "url": "https://sw-vanilajs-project.netlify.app/",
-	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-school-project",
-	  "description": "Explore the Star Wars universe with ease. This project displays data from an external Star Wars API.",
-	  "tags": ["JavaScript", "API", "CSS3", "HTML", "Github"]
-	},
-	
-	{
-	  "title": "DASHBOARD",
-	  "overlay": "Wanderlust",
-	  "id": "408",
-	  "image": "dashboard.png",
-	  "url": "https://ithsdeshboardraom.netlify.app/",
-	  "github_url": "https://github.com/Rashadul-Haque-JS/Slutprojekt-crossplatform/tree/develop",
-	  "description": "API Dash: School project dashboard displaying temp, time, local bus info. Collaborative effort. Simplifying data access.",
-	  "tags": ["React", "API", "ES6", "Github", "Netlify"]
-	},
-	
-	{
-	  "title": "STARS",
-	  "overlay": "Far-flung",
-	  "id": "409",
-	  "image": "stars.png",
-	  "url": "https://steller-conflict.netlify.app/",
-	  "github_url": "https://github.com/Rashadul-Haque-JS/star-wars-react-typescript",
-	  "description": "A project done in pairs to create a chatbot for ordering books depending on users' preferences with JavaScript as the main language.",
-	  "tags": ["React", "Typescript","JavaScript", "API", "Netlify"]
-	}
+	  }
 	
   ]
 
