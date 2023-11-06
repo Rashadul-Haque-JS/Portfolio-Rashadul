@@ -2,12 +2,22 @@
 	{
 	  "title": "Tecruit Media",
 	  "overlay": "CareerPoint",
-      "id": "399",
+      "id": "398",
       "image": "tecruit.png",
       "url": "https://tecruit-media.netlify.app/",
-      "github_url": "",
+      "github_url": "https://github.com/Rashadul-Haque-JS/tecruit-media",
       "description":"IT opportunities across Nordic regions through Tecruit's innovative job-matching platform, optimizing career growth for tech professionals",
       "tags": ["React", "Tailwind", "NodeJS", "MongoDB"]
+	},
+	{
+	  "title": "Fronty Kitty",
+	  "overlay": "FrontieTools",
+      "id": "399",
+      "image": "fronty.png",
+      "url": "https://frontykitty.dkie3pjpjuwsi.amplifyapp.com/",
+      "github_url": "",
+      "description":"Fronty Kitty offers a variety of web tools to customize and enhance your projects. Generate grids, edit images, and more with ease.",
+      "tags": ["React", "Tailwind", "AWS"]
 	},
 	{
 	  "title": "Nord Weave",
