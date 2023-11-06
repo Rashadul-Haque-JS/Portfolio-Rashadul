@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button = ({ active, onClick, children }:ButtonProps) => {
   return (
     <button
-      className={`${active ? "active" : "" } font-bold pt-2 pb-2 px-4 rounded-lg text-white ${active ? "bg-[#1b366e]" : "bg-[#405588]"}`}
+      className={`${active ? "active" : "" } font-bold pt-2 pb-2 px-4 rounded-lg text-white ${active ?"bg-[#1b366e]" :"bg-[#314e98]" }`}
       onClick={onClick}
     >
       {children}

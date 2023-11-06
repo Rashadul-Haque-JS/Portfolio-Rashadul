@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "./views/FadeIn";
+import Fade from "../views/FadeIn";
 const Skills = () => {
   return (
     <Fade>

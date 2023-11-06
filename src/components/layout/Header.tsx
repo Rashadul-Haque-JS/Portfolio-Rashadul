@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import myImg from "../../assets/images/rashadul.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import logo from "../../assets/images/programming.png";
-import Fade from "../views/FadeIn";
+import Fade from "../../views/FadeIn";
 
 const Header = () => {
   const [displayText, setDisplayText] = useState("");

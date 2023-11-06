@@ -1,6 +1,6 @@
 import React from "react";
-import recData from "../../assets/data/rec.json";
-import Recommendation from "../card/CardRecommendation";
+import recData from "../assets/data/rec.json";
+import Recommendation from "../components/card/CardRecommendation";
 
 
 const RecList = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectCard from "../card/CardAirProject";
-import projects from "../../assets/data/projects.json";
+import ProjectCard from "../components/card/CardAirProject";
+import projects from "../assets/data/projects.json";
 
 const ProjectList = () => {
   return (

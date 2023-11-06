@@ -1,6 +1,6 @@
 import React from "react";
-import Education from "../card/CardGeneral";
-import educationData from "../../assets/data/education.json";
+import Education from "../components/card/CardGeneral";
+import educationData from "../assets/data/education.json";
 import Fade from "./FadeIn";
 const EducationList = () => {
   return (

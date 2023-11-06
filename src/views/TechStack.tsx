@@ -1,6 +1,6 @@
 import React from "react";
 import TechComponent from "./Tech";
-import { techData } from "../../assets/data/tech";
+import { techData } from "../assets/data/tech";
 
 const TechKnowledges = () => {
   return (

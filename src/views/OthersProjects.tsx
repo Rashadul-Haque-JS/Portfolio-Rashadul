@@ -1,6 +1,6 @@
 import React from 'react';
-import OthersProjectCard from '../card/CardOtherProject';
-import miscProjectsData from '../../assets/data/miscProjects.json';
+import OthersProjectCard from '../components/card/CardOtherProject';
+import miscProjectsData from '../assets/data/miscProjects.json';
 
 
 const OthersProjects = () => {

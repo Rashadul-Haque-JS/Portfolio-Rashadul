@@ -1,6 +1,6 @@
 import React from "react";
-import Experience from "../card/CardGeneral";
-import experienceData from "../../assets/data/experience.json";
+import Experience from "../components/card/CardGeneral";
+import experienceData from "../assets/data/experience.json";
 import Fade from "./FadeIn";
 
 const ExperienceList = () => {

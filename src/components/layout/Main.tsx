@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
-import About from "../views/About";
+import About from "../../views/About";
 import Button from "../button/ButtonNav";
-import TechKnowledges from "../views/TechStack";
-import Projects from "../views/Projects";
-import Experience from "../views/Experience";
-import Education from "../views/Education";
-import Recommendation from "../views/Recommendation";
-import OthersProjects from "../views/OthersProjects";
+import TechKnowledges from "../../views/TechStack";
+import Projects from "../../views/Projects";
+import Experience from "../../views/Experience";
+import Education from "../../views/Education";
+import Recommendation from "../../views/Recommendation";
+import OthersProjects from "../../views/OthersProjects";
 import uxDesign from "../../assets/images/figma.png";
 import live from "../../assets/images/globe.png";
 import codebase from "../../assets/images/programming.png";
 import ProjectViewBtn from "../button/ButtonProjectView";
-import Fade from "../views/FadeIn";
+import Fade from "../../views/FadeIn";
 
 const Main = () => {
   const [othersProjects, setOthersProjects] = useState(false);
